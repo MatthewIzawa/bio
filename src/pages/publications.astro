@@ -1,8 +1,12 @@
 ---
 import BaseLayout from '../components/layout/BaseLayout.astro';
 import publications from '../data/publications.json';
+import conferences from '../data/conferences.json';
 
 type Pub = typeof publications[number];
+type Conf = typeof conferences[number];
+
+const base = import.meta.env.BASE_URL;
 
 // DATA: authors array contains strings like "Izawa MRM" or "Izawa MRMM"
 // These are the only variants of Matt's name that appear in the JSON.
@@ -19,6 +23,16 @@ function formatAuthors(authors: string[], maxDisplay = 6): string {
   return formatted.slice(0, maxDisplay).join(', ') + ' et al.';
 }
 
+// Conference author names use "M. R. M. Izawa" format variants.
+function formatConfAuthors(authors: string[], maxDisplay = 6): string {
+  const izawaPattern = /^M\.?\s*R\.?\s*M\.?\s*M?\s*Izawa$/i;
+  const formatted = authors.map(a =>
+    izawaPattern.test(a.trim()) ? `<strong>${a}</strong>` : a
+  );
+  if (formatted.length <= maxDisplay) return formatted.join(', ');
+  return formatted.slice(0, maxDisplay).join(', ') + ' et al.';
+}
+
 // Group by year. Map preserves insertion order; sort explicitly for descending.
 const byYear = publications.reduce((acc, pub) => {
   if (!acc.has(pub.year)) acc.set(pub.year, [] as Pub[]);
@@ -26,8 +40,15 @@ const byYear = publications.reduce((acc, pub) => {
   return acc;
 }, new Map<number, Pub[]>());
 
+const confByYear = conferences.reduce((acc, conf) => {
+  if (!acc.has(conf.year)) acc.set(conf.year, [] as Conf[]);
+  acc.get(conf.year)!.push(conf);
+  return acc;
+}, new Map<number, Conf[]>());
+
 // Newest year first (PUBS-03)
 const sortedYears = [...byYear.keys()].sort((a, b) => b - a);
+const confSortedYears = [...confByYear.keys()].sort((a, b) => b - a);
 ---
 
 <BaseLayout title="Publications">
@@ -58,6 +79,42 @@ const sortedYears = [...byYear.keys()].sort((a, b) => b - a);
               </p>
               <p class="text-sm text-[var(--color-text-muted)] italic">
                 {pub.journal}{pub.volume ? `, ${pub.volume}` : ''}{pub.pages ? `, ${pub.pages}` : ''}.
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+
+  <div class="mb-10 mt-16 pt-10 border-t border-[var(--color-border)]">
+    <h1 class="text-2xl font-semibold text-[var(--color-text)] mb-1">Conference Presentations &amp; Abstracts</h1>
+    <p class="text-sm text-[var(--color-text-muted)]">{conferences.length} non-refereed contributions</p>
+  </div>
+
+  {confSortedYears.map(year => {
+    const items = confByYear.get(year)!;
+    return (
+      <section class="mb-10">
+        <h2 class="text-lg font-semibold text-[var(--color-text)] mb-4 pb-2 border-b border-[var(--color-border)]">
+          {year}
+        </h2>
+        <div class="space-y-5">
+          {items.map(conf => (
+            <article class={`py-3 pl-4 border-l-2 ${conf.firstAuthor ? 'border-[var(--color-accent)]' : 'border-transparent'}`}>
+              <p class="text-sm text-[var(--color-text-muted)] mb-1 leading-relaxed">
+                <span set:html={formatConfAuthors(conf.authors)} />
+                {' '}({conf.year}).
+              </p>
+              <p class="text-[var(--color-text)] leading-snug mb-1">
+                {conf.pdf
+                  ? <a href={`${base}${conf.pdf}`} class="hover:text-[var(--color-accent)] underline underline-offset-2 decoration-[var(--color-border)]" target="_blank" rel="noopener noreferrer">{conf.title}</a>
+                  : <span>{conf.title}</span>
+                }
+                {conf.pdf && <span class="text-xs text-[var(--color-text-muted)] ml-1">[PDF]</span>}
+              </p>
+              <p class="text-sm text-[var(--color-text-muted)] italic">
+                {conf.venue}
               </p>
             </article>
           ))}
