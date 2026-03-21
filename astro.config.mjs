@@ -5,8 +5,8 @@ import tailwindcss from '@tailwindcss/vite';
 import sitemap from '@astrojs/sitemap';
 
 export default defineConfig({
-  site: 'https://brendonhall.github.io',
-  base: '/izawa-bio',
+  site: 'https://matthewizawa.github.io',
+  base: '/bio',
   integrations: [sitemap()],
   vite: {
     plugins: [tailwindcss()],
