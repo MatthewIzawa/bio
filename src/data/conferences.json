@@ -15,7 +15,8 @@
     ],
     "firstAuthor": false,
     "venue": "57th Lunar and Planetary Science Conference abstract 1880",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2026/pdf/1880.pdf"
   },
   {
     "key": "cao2026lpsc-shock",
@@ -31,7 +32,8 @@
     ],
     "firstAuthor": false,
     "venue": "57th Lunar and Planetary Science Conference abstract 1844",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2026/pdf/1844.pdf"
   },
   {
     "key": "izawa2026lpsc-nwa4587",
@@ -46,7 +48,8 @@
     ],
     "firstAuthor": true,
     "venue": "57th Lunar and Planetary Science Conference abstract 1895",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2026/pdf/1895.pdf"
   },
   {
     "key": "luo2026lpsc-mars",
@@ -62,7 +65,8 @@
     ],
     "firstAuthor": false,
     "venue": "57th Lunar and Planetary Science Conference abstract 1422",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2026/pdf/1422.pdf"
   },
   {
     "key": "applin2025lpsc-mineral",
@@ -78,7 +82,8 @@
     ],
     "firstAuthor": false,
     "venue": "56th Lunar and Planetary Science Conference abstract 2315",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2025/pdf/2315.pdf"
   },
   {
     "key": "diyalanthonige2025epsc-mercury",
@@ -93,7 +98,8 @@
     ],
     "firstAuthor": false,
     "venue": "EPSC-DPS2025-1615",
-    "pdf": null
+    "pdf": null,
+    "url": "https://meetingorganizer.copernicus.org/EPSC-DPS2025/EPSC-DPS2025-1615.html"
   },
   {
     "key": "izawa2025lpsc-lunar",
@@ -111,7 +117,8 @@
     ],
     "firstAuthor": true,
     "venue": "56th Lunar and Planetary Science Conference abstract 2597",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2025/pdf/2597.pdf"
   },
   {
     "key": "izawa2025epsc-enstatite",
@@ -127,7 +134,8 @@
     ],
     "firstAuthor": true,
     "venue": "EPSC-DPS2025-1249",
-    "pdf": null
+    "pdf": null,
+    "url": "https://meetingorganizer.copernicus.org/EPSC-DPS2025/EPSC-DPS2025-1249.html"
   },
   {
     "key": "cao2024lpsc-mineral",
@@ -144,7 +152,8 @@
     ],
     "firstAuthor": false,
     "venue": "55th Lunar and Planetary Science Conference abstract 1782",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2024/pdf/1782.pdf"
   },
   {
     "key": "izawa2023lpsc-mineral",
@@ -158,7 +167,8 @@
     ],
     "firstAuthor": true,
     "venue": "54th Lunar and Planetary Science Conference abstract 2538",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2023/pdf/2538.pdf"
   },
   {
     "key": "cao2022ima-shock",
@@ -217,7 +227,8 @@
     ],
     "firstAuthor": true,
     "venue": "53rd Lunar and Planetary Science Conference 2022 abstract 2369",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2022/pdf/2369.pdf"
   },
   {
     "key": "cao2021lpsc-nwa7034",
@@ -305,12 +316,13 @@
     ],
     "firstAuthor": false,
     "venue": "51st Lunar and Planetary Science Conference, 2020 abstract #2114",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/2114.pdf"
   },
   {
     "key": "gartrelle2020lpsc-spectral",
     "year": 2020,
-    "title": "Visible near-infrared (0.7-2.45 μm) spectral distinctions of D-type asteroids in differing heliocentric regions",
+    "title": "Visible near-infrared (0.7-2.45 \u03bcm) spectral distinctions of D-type asteroids in differing heliocentric regions",
     "authors": [
       "G.M. Gartrelle",
       "P.S. Hardersen",
@@ -319,7 +331,8 @@
     ],
     "firstAuthor": false,
     "venue": "51st Lunar and Planetary Science Conference, abstract #1872",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/1872.pdf"
   },
   {
     "key": "gartrelle2020lpsc-mineral",
@@ -333,7 +346,8 @@
     ],
     "firstAuthor": false,
     "venue": "51st Lunar and Planetary Science Conference, 2020 abstract #1881",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/1881.pdf"
   },
   {
     "key": "izawa2020jpgu-nwa6704",
@@ -365,7 +379,8 @@
     ],
     "firstAuthor": true,
     "venue": "51st Lunar and Planetary Science Conference, abstract #2252",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/2252.pdf"
   },
   {
     "key": "izawa2020lpsc-mars",
@@ -379,7 +394,8 @@
     ],
     "firstAuthor": true,
     "venue": "51st Lunar and Planetary Science Conference, abstract #2016",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/2016.pdf"
   },
   {
     "key": "cao2019metsoc-mars",
@@ -393,7 +409,8 @@
     ],
     "firstAuthor": false,
     "venue": "Meteoritical Society Meeting 2019 abstract 6456",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/metsoc2019/pdf/6456.pdf"
   },
   {
     "key": "cao2019gsa-mars",
@@ -407,7 +424,8 @@
     ],
     "firstAuthor": false,
     "venue": "Geological Society of America Annual Meeting 2019 abstract 341352",
-    "pdf": null
+    "pdf": null,
+    "url": "https://gsa.confex.com/gsa/2019AM/webprogram/Paper341352.html"
   },
   {
     "key": "cao2019gsa-mars-2",
@@ -421,7 +439,8 @@
     ],
     "firstAuthor": false,
     "venue": "Geological Society of America Annual Meeting 2019 abstract 341234",
-    "pdf": null
+    "pdf": null,
+    "url": "https://gsa.confex.com/gsa/2019AM/webprogram/Paper341234.html"
   },
   {
     "key": "corre2019lpsc-osrex",
@@ -437,7 +456,7 @@
       "M.R.M. Izawa",
       "P. Smith",
       "B. Rizk",
-      "C. d’Aubigny",
+      "C. d\u2019Aubigny",
       "D. S. Lauretta",
       "B.E.Clark",
       "H. Campins",
@@ -446,7 +465,8 @@
     ],
     "firstAuthor": false,
     "venue": "50th Lunar and Planetary Science Conference abstract #2794, 2019",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2019/pdf/2794.pdf"
   },
   {
     "key": "gartrelle2019lpsc-dtype",
@@ -459,7 +479,8 @@
     ],
     "firstAuthor": false,
     "venue": "50th Lunar and Planetary Science Conference abstract #1811, 2019",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2019/pdf/1811.pdf"
   },
   {
     "key": "izawa2019lpsc-shergottite",
@@ -471,7 +492,8 @@
     ],
     "firstAuthor": true,
     "venue": "50th Lunar and Planetary Science Conference, abstract #2646",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2019/pdf/2646.pdf"
   },
   {
     "key": "izawa2019lpsc-meteorite",
@@ -491,7 +513,8 @@
     ],
     "firstAuthor": true,
     "venue": "50th Lunar and Planetary Science Conference abstract #3174, 2019",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2019/pdf/3174.pdf"
   },
   {
     "key": "jephcoat2019iceg-dac",
@@ -541,7 +564,7 @@
   {
     "key": "izawa2018lpsc-spectral",
     "year": 2018,
-    "title": "The “Infrared-Ultraviolet Connection” in reflectance spectroscopy",
+    "title": "The \u201cInfrared-Ultraviolet Connection\u201d in reflectance spectroscopy",
     "authors": [
       "M. R. M. Izawa",
       "D. M. Applin",
@@ -646,7 +669,8 @@
     ],
     "firstAuthor": false,
     "venue": "47th Lunar and Planetary Science Conference, 2016, abstract #2540",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2016/pdf/2540.pdf"
   },
   {
     "key": "applin2016lpsc-spectral-2",
@@ -659,7 +683,8 @@
     ],
     "firstAuthor": false,
     "venue": "47th Lunar and Planetary Science Conference, 2016 abstract #2557",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2016/pdf/2557.pdf"
   },
   {
     "key": "berger2016lpsc-mars",
@@ -677,7 +702,8 @@
     ],
     "firstAuthor": false,
     "venue": "47th Lunar and Planetary Science Conference, 2016, abstract #1652",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2016/pdf/1652.pdf"
   },
   {
     "key": "irving2016lpsc-nwa4480",
@@ -695,7 +721,8 @@
     ],
     "firstAuthor": false,
     "venue": "47th Lunar and Planetary Science Conference, 2016, abstract # 2330",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2016/pdf/2330.pdf"
   },
   {
     "key": "izawa2016lpsc-mars",
@@ -744,7 +771,8 @@
     ],
     "firstAuthor": false,
     "venue": "47th Lunar and Planetary Science Conference, 2016, abstract #2043",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2016/pdf/2043.pdf"
   },
   {
     "key": "schmidt2016gsa-mars",
@@ -766,8 +794,8 @@
     "year": 2016,
     "title": "The appearance of Carbonaceous Chondrites on (1) Ceres from observations by the Dawn Framing Camera",
     "authors": [
-      "T. Schäfer",
-      "M. Schäfer",
+      "T. Sch\u00e4fer",
+      "M. Sch\u00e4fer",
       "K. Mengel",
       "E. A. Cloutis",
       "M. R. M. Izawa",
@@ -781,15 +809,16 @@
     ],
     "firstAuthor": false,
     "venue": "EGU General Assembly 2016, Geophysical Research Abstracts Vol. 18, EGU2016-14495",
-    "pdf": null
+    "pdf": null,
+    "url": "https://meetingorganizer.copernicus.org/EGU2016/EGU2016-14495.pdf"
   },
   {
     "key": "schfer2016egu-ceres-2",
     "year": 2016,
     "title": "Ceres' Yellow Spots - Observations with Dawn Framing Camera",
     "authors": [
-      "M. Schäfer",
-      "T. Schäfer",
+      "M. Sch\u00e4fer",
+      "T. Sch\u00e4fer",
       "E. A. Cloutis",
       "M. R. M. Izawa",
       "T. Platz",
@@ -806,7 +835,8 @@
     ],
     "firstAuthor": false,
     "venue": "EGU General Assembly 2016, Geophysical Research Abstracts Vol. 18, EGU2016-12370-1",
-    "pdf": null
+    "pdf": null,
+    "url": "https://meetingorganizer.copernicus.org/EGU2016/EGU2016-12370-1.pdf"
   },
   {
     "key": "uribe2016lpsc-nwa4301",
@@ -820,7 +850,8 @@
     ],
     "firstAuthor": false,
     "venue": "47th Lunar and Planetary Science Conference, 2016, abstract #3071",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2016/pdf/3071.pdf"
   },
   {
     "key": "uribe2016lpsc-nwa8173",
@@ -834,12 +865,13 @@
     ],
     "firstAuthor": false,
     "venue": "47th Lunar and Planetary Science Conference, 2016, abstract #2797",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.hou.usra.edu/meetings/lpsc2016/pdf/2797.pdf"
   },
   {
     "key": "applin2015lpsc-spectral",
     "year": 2015,
-    "title": "Infrared (2.5-25.0 μm) reflectance of solid state polycyclic aromatic hydrocarbons",
+    "title": "Infrared (2.5-25.0 \u03bcm) reflectance of solid state polycyclic aromatic hydrocarbons",
     "authors": [
       "D. M. Applin",
       "M. R. M. Izawa",
@@ -847,7 +879,8 @@
     ],
     "firstAuthor": false,
     "venue": "46th Lunar and Planetary Science Conference, 2015, Abstract# 2588",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2015/pdf/2588.pdf"
   },
   {
     "key": "applin2015lpsc-spectral-2",
@@ -860,7 +893,8 @@
     ],
     "firstAuthor": false,
     "venue": "46th Lunar and Planetary Science Conference, 2015, Abstract# 2358",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2015/pdf/2358.pdf"
   },
   {
     "key": "bebout2015misasa-mineral",
@@ -893,7 +927,7 @@
   {
     "key": "cloutis2015gac-mac-spectral",
     "year": 2015,
-    "title": "Closed-system heating of Murchison CM2 and ‘fake’ Murchison CM2 carbonaceous chondrite: Spectral reflectance properties, 2015 AGU-",
+    "title": "Closed-system heating of Murchison CM2 and \u2018fake\u2019 Murchison CM2 carbonaceous chondrite: Spectral reflectance properties, 2015 AGU-",
     "authors": [
       "E. A. Cloutis",
       "Paul Mann",
@@ -920,12 +954,13 @@
     ],
     "firstAuthor": false,
     "venue": "46th Lunar and Planetary Science Conference, 2015, Abstract #1107",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2015/pdf/1107.pdf"
   },
   {
     "key": "gucsik2015lpsc-tagish",
     "year": 2015,
-    "title": "K Ninagawa, I. Gyollai, M. R. M. Izawa, C. Jäger, U. Ott, M. Kayama, Cathodoluminescence Microscopy and Spectroscopy of Forsterite from the Tagish Lake Meteorite: An Implication for Asteroidal Processes",
+    "title": "K Ninagawa, I. Gyollai, M. R. M. Izawa, C. J\u00e4ger, U. Ott, M. Kayama, Cathodoluminescence Microscopy and Spectroscopy of Forsterite from the Tagish Lake Meteorite: An Implication for Asteroidal Processes",
     "authors": [
       "A. Gucsik",
       "N. Nishido"
@@ -949,7 +984,8 @@
     ],
     "firstAuthor": false,
     "venue": "46th Lunar and Planetary Science Conference, 2015, Abstract #1983",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2015/pdf/1983.pdf"
   },
   {
     "key": "izawa2015lpsc-shergottite",
@@ -966,7 +1002,8 @@
     ],
     "firstAuthor": true,
     "venue": "46th Lunar and Planetary Science Conference, 2015, Abstract #2523",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2015/pdf/2523.pdf"
   },
   {
     "key": "izawa2015gac-mac-shergottite",
@@ -996,10 +1033,10 @@
       "P. Mann",
       "E. A. Cloutis",
       "K. Tait",
-      "T. Shäfer",
+      "T. Sh\u00e4fer",
       "K. Mengel",
       "A. Nathues",
-      "M. Shäfer",
+      "M. Sh\u00e4fer",
       "G. Thangjam",
       "M. Hoffmann"
     ],
@@ -1012,10 +1049,10 @@
     "year": 2015,
     "title": "Dawn Framing Camera Color Mosaics of Ceres",
     "authors": [
-      "M. Schäfer",
+      "M. Sch\u00e4fer",
       "A. Nathues",
       "M. Hoffmann",
-      "T. Schäfer",
+      "T. Sch\u00e4fer",
       "M. R. M. Izawa",
       "E. A. Cloutis",
       "G. S. Thangjam",
@@ -1024,8 +1061,8 @@
       "V. Reddy",
       "L. Le Corre",
       "J. Ripken",
-      "P. Gutiérrez-Marqués",
-      "I. Büttner",
+      "P. Guti\u00e9rrez-Marqu\u00e9s",
+      "I. B\u00fcttner",
       "I. Hall",
       "H. Sierks",
       "U. Christensen",
@@ -1040,17 +1077,18 @@
     "year": 2015,
     "title": "Dawn FC band parameters for the detection of Fe-bearing phyllosilicates on Cerses",
     "authors": [
-      "T. Schäfer",
+      "T. Sch\u00e4fer",
       "A. Nathues",
       "K. Mengel",
       "E. A. Cloutis",
       "M. Hoffmann",
       "M. R. M. Izawa",
-      "M. Schäfer"
+      "M. Sch\u00e4fer"
     ],
     "firstAuthor": false,
     "venue": "46th Lunar and Planetary Science Conference, 2015, Abstract# 2220",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2015/pdf/2220.pdf"
   },
   {
     "key": "shepherd2015gac-mac-dac",
@@ -1085,7 +1123,7 @@
   {
     "key": "uribe2015lpsc-nwa4301",
     "year": 2015,
-    "title": "Comparative non-destructive study of the Zakłodzie and NWA 4301 enstatite achondrites via micro-computed tomography",
+    "title": "Comparative non-destructive study of the Zak\u0142odzie and NWA 4301 enstatite achondrites via micro-computed tomography",
     "authors": [
       "D. D. Uribe",
       "P. J. A. McCausland",
@@ -1096,12 +1134,13 @@
     ],
     "firstAuthor": false,
     "venue": "Lunar and Planetary Science Conference, 2015, Abstract #2817",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2015/pdf/2817.pdf"
   },
   {
     "key": "uribe2015gac-mac-enstatite",
     "year": 2015,
-    "title": "3D petrography of Enstatite achondrites via micro computed tomography scanning (µCT), 2015 AGU-",
+    "title": "3D petrography of Enstatite achondrites via micro computed tomography scanning (\u00b5CT), 2015 AGU-",
     "authors": [
       "D. D. Uribe",
       "P. J. A. McCausland",
@@ -1153,7 +1192,8 @@
     ],
     "firstAuthor": false,
     "venue": "45th Lunar and Planetary Science Conference, 2014, Abstract #1884",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2014/pdf/1884.pdf"
   },
   {
     "key": "applin2014lpsc-spectral-2",
@@ -1166,7 +1206,8 @@
     ],
     "firstAuthor": false,
     "venue": "45th Lunar and Planetary Science Conference, 2014, Abstract #1884",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2014/pdf/1884.pdf"
   },
   {
     "key": "applin2014gac-mac-seg-spectral",
@@ -1279,7 +1320,7 @@
       "K. Ninagawa",
       "I. Gyollai",
       "M. R. M. Izawa",
-      "C. Jäger"
+      "C. J\u00e4ger"
     ],
     "firstAuthor": false,
     "venue": "5th Symposium of Polar Science, Tokyo, Japan, 2014",
@@ -1311,7 +1352,8 @@
     ],
     "firstAuthor": true,
     "venue": "45th Lunar and Planetary Science Conference, 2014, Abstract #1526",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2014/pdf/1526.pdf"
   },
   {
     "key": "izawa2014lpsc-mars",
@@ -1324,7 +1366,8 @@
     ],
     "firstAuthor": true,
     "venue": "45th Lunar and Planetary Science Conference, 2014, Abstract #1572",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2014/pdf/1572.pdf"
   },
   {
     "key": "izawa2014gac-mac-seg",
@@ -1544,7 +1587,8 @@
     ],
     "firstAuthor": true,
     "venue": "44th Lunar and Planetary Science Conference, 2013, Abstract # 3019",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2013/pdf/3019.pdf"
   },
   {
     "key": "izawa2013lpsc-spectral",
@@ -1559,7 +1603,8 @@
     ],
     "firstAuthor": true,
     "venue": "44th Lunar and Planetary Science Conference, 2013, Abstract # 1788",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2013/pdf/1788.pdf"
   },
   {
     "key": "izawa2013catp-osrex",
@@ -1681,7 +1726,7 @@
       "N. R. Banerjee"
     ],
     "firstAuthor": false,
-    "venue": "Misasa International Symposium IV: Solar System Exploration and New Geosciences – Perspectives for the Next Decade, Misasa, Japan1",
+    "venue": "Misasa International Symposium IV: Solar System Exploration and New Geosciences \u2013 Perspectives for the Next Decade, Misasa, Japan1",
     "pdf": null
   },
   {
@@ -1704,14 +1749,14 @@
     "year": 2012,
     "title": "Searching for Biosignatures in Deep Regions of the Rio Tinto Aquifer: The Iberian Pyritic Belt Subsurface Life (IPBSL) Project",
     "authors": [
-      "D. C. Fernández-Remolar",
-      "M. Sánchez-Román",
+      "D. C. Fern\u00e1ndez-Remolar",
+      "M. S\u00e1nchez-Rom\u00e1n",
       "O. Prieto Ballesteros",
-      "D. Gómez-Ortíz",
-      "M. García-Villadangos",
+      "D. G\u00f3mez-Ort\u00edz",
+      "M. Garc\u00eda-Villadangos",
       "A. Molina",
-      "N. Rodríguez",
-      "T. Barragán",
+      "N. Rodr\u00edguez",
+      "T. Barrag\u00e1n",
       "D. Gleenson",
       "N. R. Banerjee",
       "G. Southam",
@@ -1759,7 +1804,8 @@
     ],
     "firstAuthor": true,
     "venue": "43rd Lunar and Planetary Science Conference, 2012, Abstract # 2735",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2012/pdf/2735.pdf"
   },
   {
     "key": "izawa2012csss-enstatite",
@@ -1798,7 +1844,7 @@
     "year": 2012,
     "title": "Carbonate precipitation in acidic environments, a potential biosignature for searching life on Mars",
     "authors": [
-      "M. Sánchez-Román",
+      "M. S\u00e1nchez-Rom\u00e1n",
       "D. C. Fernandez-Remolar",
       "N. Sanchez-Navas",
       "C. Romanek N. T. Schmid",
@@ -1838,7 +1884,8 @@
     ],
     "firstAuthor": false,
     "venue": "42nd Lunar and Planetary Science Conference, 2011, Abstract # 2759",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2011/pdf/2759.pdf"
   },
   {
     "key": "battler2011emh-mars",
@@ -1855,7 +1902,7 @@
       "M. A. Craig",
       "M. R. M. Izawa",
       "G. F. Slater",
-      "A. G. Fairén",
+      "A. G. Fair\u00e9n",
       "N. R. Banerjee"
     ],
     "firstAuthor": false,
@@ -1876,7 +1923,8 @@
     ],
     "firstAuthor": false,
     "venue": "42nd Lunar and Planetary Science Conference, 2011, Abstract #2500",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2011/pdf/2500.pdf"
   },
   {
     "key": "flemming2011cambr",
@@ -1933,7 +1981,8 @@
     ],
     "firstAuthor": true,
     "venue": "42nd Lunar and Planetary Science Conference, 2011, Abstract # 1275",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2011/pdf/1275.pdf"
   },
   {
     "key": "izawa2011gac-mac-seg-enstatite",
@@ -1951,7 +2000,7 @@
   {
     "key": "king2011lpsc-salt",
     "year": 2011,
-    "title": "Salt – An essential material to consider when exploring the solar system",
+    "title": "Salt \u2013 An essential material to consider when exploring the solar system",
     "authors": [
       "P. L. King",
       "M. R. M. Izawa",
@@ -1962,7 +2011,8 @@
     ],
     "firstAuthor": false,
     "venue": "42nd Lunar and Planetary Science Conference, 2011, Abstract # 1985",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2011/pdf/1985.pdf"
   },
   {
     "key": "mccausland2011agu-shock",
@@ -1990,7 +2040,8 @@
     ],
     "firstAuthor": false,
     "venue": "42nd Lunar and Planetary Science Conference, 2011, Abstract # 1023",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2011/pdf/1023.pdf"
   },
   {
     "key": "preston2011emh-spectral",
@@ -2023,7 +2074,8 @@
     ],
     "firstAuthor": false,
     "venue": "42nd Lunar and Planetary Science Conference, Abstract # 1344",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2011/pdf/1344.pdf"
   },
   {
     "key": "anderson2010lpsc-mars",
@@ -2146,7 +2198,8 @@
     ],
     "firstAuthor": false,
     "venue": "40th Lunar and Planetary Science Conference, 2009, Abstract # 1331",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2009/pdf/1331.pdf"
   },
   {
     "key": "battler2009agu-mineral",
@@ -2188,7 +2241,8 @@
     ],
     "firstAuthor": true,
     "venue": "40th Lunar and Planetary Science Conference, 2009, Abstract # 1322",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2009/pdf/1322.pdf"
   },
   {
     "key": "izawa2009lpsc-tagish",
@@ -2203,12 +2257,13 @@
     ],
     "firstAuthor": true,
     "venue": "40th Lunar and Planetary Science Conference, 2009, Abstract # 1757",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2009/pdf/1757.pdf"
   },
   {
     "key": "izawa2009psrs-enstatite",
     "year": 2009,
-    "title": "A micro X-ray diffraction (μXRD) technique for shock stage assessment in enstatite chondrites",
+    "title": "A micro X-ray diffraction (\u03bcXRD) technique for shock stage assessment in enstatite chondrites",
     "authors": [
       "M. R. M. Izawa",
       "R. L. Flemming",
@@ -2229,7 +2284,7 @@
       "N. S. McIntyre"
     ],
     "firstAuthor": true,
-    "venue": "Canadian Light Source Saskatoon Synchrotron Summer School IV, June 13th – 18th, 2009",
+    "venue": "Canadian Light Source Saskatoon Synchrotron Summer School IV, June 13th \u2013 18th, 2009",
     "pdf": null
   },
   {
@@ -2324,7 +2379,7 @@
       "R. L. Flemming"
     ],
     "firstAuthor": false,
-    "venue": "6th Canadian Space Exploration Workshop, Dec 1-3, 2008 Montréal, QC",
+    "venue": "6th Canadian Space Exploration Workshop, Dec 1-3, 2008 Montr\u00e9al, QC",
     "pdf": null
   },
   {
@@ -2353,7 +2408,8 @@
     ],
     "firstAuthor": true,
     "venue": "39th Lunar and Planetary Science Conference, 2008, abstract #2149",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2008/pdf/2149.pdf"
   },
   {
     "key": "izawa2008lpsc-xrd",
@@ -2369,7 +2425,8 @@
     ],
     "firstAuthor": true,
     "venue": "39th Lunar and Planetary Science Conference, 2008, abstract #1459",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2008/pdf/1459.pdf"
   },
   {
     "key": "izawa2008agu-bio",
@@ -2404,7 +2461,7 @@
   {
     "key": "izawa2008gsa-tagish",
     "year": 2008,
-    "title": "Correlated SEM-EDX and μXRD survey of the Tagish Lake carbonaceous chondrite. Paper presented at the",
+    "title": "Correlated SEM-EDX and \u03bcXRD survey of the Tagish Lake carbonaceous chondrite. Paper presented at the",
     "authors": [
       "M. R. M. Izawa",
       "R. L. Flemming",
@@ -2444,7 +2501,7 @@
       "P. Furgale"
     ],
     "firstAuthor": false,
-    "venue": "6th Canadian Space Exploration Workshop, Dec 1-3, 2008 Montréal, QC",
+    "venue": "6th Canadian Space Exploration Workshop, Dec 1-3, 2008 Montr\u00e9al, QC",
     "pdf": null
   },
   {
@@ -2480,7 +2537,7 @@
       "C. S. Cockell"
     ],
     "firstAuthor": false,
-    "venue": "6th Canadian Space Exploration Workshop, Dec 1-3, 2008 Montréal, QC",
+    "venue": "6th Canadian Space Exploration Workshop, Dec 1-3, 2008 Montr\u00e9al, QC",
     "pdf": null
   },
   {
@@ -2495,7 +2552,8 @@
     ],
     "firstAuthor": false,
     "venue": "38th Lunar and Planetary Science Conference, 2007, abstract # 2363",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2007/pdf/2363.pdf"
   },
   {
     "key": "flemming2007csc-xrd",
@@ -2521,7 +2579,8 @@
     ],
     "firstAuthor": true,
     "venue": "38th Lunar and Planetary Science Conference 2007, abstract #1923",
-    "pdf": null
+    "pdf": null,
+    "url": "https://www.lpi.usra.edu/meetings/lpsc2007/pdf/1923.pdf"
   },
   {
     "key": "izawa2007ccp-spectral",
