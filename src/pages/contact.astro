@@ -1,0 +1,54 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+---
+<BaseLayout title="Contact">
+  <div class="space-y-10 max-w-lg">
+    <h1 class="text-2xl font-semibold text-[var(--color-text)] mb-10">Contact</h1>
+
+    <div>
+      <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-3">Email</h2>
+      <a
+        href="mailto:matthew.izawa@gmail.com"
+        class="text-lg text-[var(--color-text)] hover:text-[var(--color-accent-hover)]"
+      >
+        matthew.izawa@gmail.com
+      </a>
+    </div>
+
+    <div>
+      <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-3">Address</h2>
+      <address class="not-italic text-[var(--color-text)] leading-relaxed">
+        Institute for Planetary Materials<br />
+        Okayama University – Misasa<br />
+        827 Yamada, Misasa-cho, Tohaku-gun<br />
+        Tottori-ken, Japan
+      </address>
+    </div>
+
+    <div>
+      <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-3">Profiles</h2>
+      <ul class="space-y-3">
+        <li>
+          <a
+            href="https://orcid.org/0000-0001-5456-2912"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
+          >
+            ORCID — 0000-0001-5456-2912
+          </a>
+        </li>
+        <li>
+          <a
+            href="https://scholar.google.com/citations?user=pUb8l4sAAAAJ&hl=en&oi=ao"
+            target="_blank"
+            rel="noopener noreferrer"
+            class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]"
+          >
+            Google Scholar
+          </a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</BaseLayout>

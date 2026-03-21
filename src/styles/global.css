@@ -1,0 +1,34 @@
+/* src/styles/global.css */
+@import "tailwindcss";
+@import "@fontsource-variable/inter";
+
+@theme {
+  --font-sans: "Inter Variable", ui-sans-serif, system-ui, -apple-system, sans-serif;
+
+  /* Slate/steel blue accent palette — locked decision from CONTEXT.md */
+  --color-accent: oklch(42% 0.06 240);       /* ~ slate-600 equivalent */
+  --color-accent-light: oklch(62% 0.05 240); /* ~ slate-400 equivalent */
+  --color-accent-hover: oklch(35% 0.07 240); /* darker for hover states */
+
+  /* Neutral base — maximally serious, off-white background */
+  --color-background: oklch(98% 0.005 85);   /* warm off-white ~ #f8f7f5 */
+  --color-surface: oklch(96% 0.004 85);      /* slightly darker for cards/panels */
+  --color-border: oklch(88% 0.005 240);      /* light slate border */
+  --color-text: oklch(20% 0.02 240);         /* dark slate ~ slate-900 */
+  --color-text-muted: oklch(45% 0.02 240);   /* muted ~ slate-600 */
+}
+
+/* Base prose reset */
+body {
+  background-color: var(--color-background);
+  color: var(--color-text);
+  font-family: var(--font-sans);
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* No page transitions, no animations — locked decision */
+*, *::before, *::after {
+  animation-duration: 0s !important;
+  transition-duration: 0s !important;
+}

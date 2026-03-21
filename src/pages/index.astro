@@ -1,0 +1,89 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import headshot from '../assets/headshot.jpeg';
+---
+<BaseLayout title="About">
+
+  <!-- Section 1: Hero (above the fold) -->
+  <section class="flex flex-col sm:flex-row gap-8 items-start mb-12">
+    <Image
+      src={headshot}
+      alt="Matthew R.M. Izawa, planetary scientist"
+      width={200}
+      height={200}
+      class="rounded-sm object-cover flex-shrink-0"
+    />
+    <div>
+      <h1 class="text-3xl font-semibold text-[var(--color-text)] mb-2">Matthew R.M. Izawa</h1>
+      <p class="text-lg text-[var(--color-text-muted)] mb-4">Associate Professor, Institute for Planetary Materials, Okayama University – Misasa</p>
+      <p class="text-[var(--color-text)] leading-relaxed">
+        I am a planetary scientist specializing in the spectroscopy and geochemistry of rocks, minerals, and planetary surfaces. Over more than fifteen years, my work has contributed to NASA flagship missions, established spectral databases used by space agencies and universities worldwide, and developed AI-enabled analytical methods with direct applications to critical mineral exploration and environmental monitoring on Earth. I am currently based at the Institute for Planetary Materials, Okayama University, where I lead hyperspectral imaging infrastructure development under the J-PEAKS consortium.
+      </p>
+    </div>
+  </section>
+
+  <!-- Section 2: Research Overview -->
+  <section class="mb-10">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4">Research</h2>
+    <div class="space-y-4 text-[var(--color-text)] leading-relaxed">
+      <p>
+        My research spans mineral spectroscopy and remote sensing, AI-enabled hyperspectral imaging,
+        planetary materials science, astrobiology, and Arctic environmental geochemistry — areas
+        united by a common analytical toolkit and a shared commitment to connecting planetary science
+        with urgent Earth applications.
+      </p>
+      <p>
+        <a href={`${import.meta.env.BASE_URL}research`} class="text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]">
+          Learn more about my research →
+        </a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Section 3: Industry Applications callout -->
+  <section class="mb-10 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-sm p-6">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4">Industry Applications</h2>
+    <ul class="space-y-2 text-[var(--color-text)]">
+      <li><strong>Critical minerals exploration</strong> — hyperspectral AI and spectral classification for drill core analysis and remote mineral mapping; directly applicable to lithium, cobalt, nickel, and rare earth element characterization</li>
+      <li><strong>Environmental monitoring</strong> — spectroscopic detection and mapping of acid rock drainage, sulphide oxidation products, and permafrost geochemical change</li>
+      <li><strong>Space technology</strong> — spectral database development, mission instrument calibration, and mineral mapping for NASA and JAXA programs (OSIRIS-REx, Dawn, MSL)</li>
+      <li><strong>Geospatial intelligence</strong> — machine learning classification of hyperspectral datasets at scale, developed in planetary contexts and transferable to terrestrial remote sensing</li>
+    </ul>
+  </section>
+
+  <!-- Section 4: Credentials prose -->
+  <section class="mb-10">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4">Background</h2>
+    <div class="space-y-4 text-[var(--color-text)] leading-relaxed">
+      <p>
+        My research record includes 81 peer-reviewed publications (h-index 28, ~3,200 citations), among them co-authored contributions to Nature reporting results from the OSIRIS-REx mission. I hold a PhD in Geology and Planetary Science from the University of Western Ontario and have been continuously funded since graduate school through NSERC, the Canadian Space Agency, and Japan's Ministry of Education (MEXT). I currently lead an allocation of 300 million yen within the J-PEAKS consortium at Okayama University to build a hyperspectral imaging system for planetary and terrestrial research. I hold adjunct faculty appointments at the University of Western Ontario and the University of Winnipeg, where I previously held a postdoctoral fellowship and retain active collaborations.
+      </p>
+    </div>
+  </section>
+
+  <!-- Section 5: Mission Involvement -->
+  <section class="mb-10">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4">Mission Science</h2>
+    <p class="text-[var(--color-text)] leading-relaxed mb-4">
+      I have been a science team member on three NASA missions, contributing laboratory spectroscopy and geochemical analysis that fed directly into mission science results.
+    </p>
+    <ul class="space-y-3 text-[var(--color-text)] leading-relaxed">
+      <li>
+        <strong>OSIRIS-REx</strong> — My laboratory magnetite spectroscopy (Izawa et al. 2018, Icarus) was directly applied by the mission team to confirm the presence of magnetite on asteroid Bennu, a finding reported in Lauretta et al. 2019 (Nature).
+      </li>
+      <li>
+        <strong>Dawn</strong> — Contributed to the reinterpretation of UV reflectance from carbon-rich materials, providing a framework for understanding the surface of dwarf planet Ceres (Applin, Izawa, Cloutis et al. 2018, Icarus).
+      </li>
+      <li>
+        <strong>Mars Science Laboratory (Curiosity)</strong> — Contributed to the identification of oxalate minerals on Mars through reinterpretation of Viking, Phoenix, and MSL data, expanding the inventory of potential biosignatures detectable on the Martian surface (Applin, Izawa, Cloutis et al. 2015, EPSL).
+      </li>
+    </ul>
+  </section>
+
+  <!-- Section 6: Asteroid aside -->
+  <aside class="mt-12 border-l-2 border-[var(--color-accent-light)] pl-4 text-sm text-[var(--color-text-muted)] italic">
+    <a href="https://news.uwinnipeg.ca/twinkle-twinkle-asteroid-8998-matthewizawa/" target="_blank" rel="noopener noreferrer" class="not-italic text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]">Asteroid (8998) Matthewizawa</a> — designated by the International Astronomical Union Minor Planet Center in July 2014 in recognition of contributions to planetary science — orbits the main asteroid belt between Mars and Jupiter. <a href="https://ssd.jpl.nasa.gov/tools/sbdb_lookup.html#/?sstr=8998" target="_blank" rel="noopener noreferrer" class="not-italic text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]">JPL</a> · <a href="https://minorplanetcenter.net/db_search/show_object?object_id=8998" target="_blank" rel="noopener noreferrer" class="not-italic text-[var(--color-accent)] hover:text-[var(--color-accent-hover)]">MPC</a>
+  </aside>
+
+</BaseLayout>

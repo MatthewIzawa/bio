@@ -1,0 +1,290 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+const base = import.meta.env.BASE_URL;
+---
+<BaseLayout title="CV">
+
+  <div class="mb-10">
+    <h1 class="text-2xl font-semibold text-[var(--color-text)] mb-6">Curriculum Vitae</h1>
+    <a href={`${base}cv.pdf`}
+       download
+       class="inline-flex items-center gap-1.5 text-sm font-medium text-[var(--color-accent)] hover:text-[var(--color-accent-hover)] underline underline-offset-2">
+      Download CV (PDF)
+    </a>
+    {/* public/cv.pdf must be placed in izawa-bio/public/ for this link to resolve */}
+  </div>
+
+  <!-- SECTION 1: POSITIONS -->
+  <section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4 mt-0">
+      Positions
+    </h2>
+    <div class="space-y-6">
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Associate Professor</p>
+        <p class="text-[var(--color-text-muted)]">Institute for Planetary Materials (IPM), Okayama University – Misasa, Japan</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2021 – present</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Adjunct Faculty</p>
+        <p class="text-[var(--color-text-muted)]">Department of Earth Sciences, University of Western Ontario, Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2021 – present</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Adjunct Faculty</p>
+        <p class="text-[var(--color-text-muted)]">Department of Geography, University of Winnipeg, Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2019 – present</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Assistant Professor</p>
+        <p class="text-[var(--color-text-muted)]">Institute for Planetary Materials (IPM), Okayama University – Misasa, Japan</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2016 – 2021</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Postdoctoral Fellow</p>
+        <p class="text-[var(--color-text-muted)]">Brock University, Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2015 – 2016</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Associate Research Scientist</p>
+        <p class="text-[var(--color-text-muted)]">Planetary Science Institute, Tucson, AZ</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2015 – 2016</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Hatch Postdoctoral Fellow</p>
+        <p class="text-[var(--color-text-muted)]">Royal Ontario Museum, Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2014 – 2015</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Postdoctoral Research Fellow</p>
+        <p class="text-[var(--color-text-muted)]">Hyperspectral Optical Sensing for Extraterrestrial Reconnaissance Laboratory, Department of Geography, University of Winnipeg, Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2012 – 2014</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 2: GRANTS & FUNDING -->
+  <section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4 mt-0">
+      Grants & Funding
+    </h2>
+    <div class="space-y-4">
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">J-PEAKS Consortium — Hyperspectral Imaging Infrastructure</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Program for Forming Japan's Peak Research Universities (J-PEAKS) / Okayama University, 2023 – 2028</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Facilities Improvement Grant — Optical Microscopy and Image Analysis</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Institute for Planetary Materials, Okayama University</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">SAKU Programme — Supporting Advanced Activities of Key Young Researchers</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Okayama University, 2019 – 2020</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">MEXT International Joint Research Center Support</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Ministry of Education, Culture, Sports, Science and Technology (MEXT), Japan, 2016 – 2024</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Director's Discretionary Funding — Martian Regolith Breccia NWA 8171</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Institute for Planetary Materials, Okayama University, 2016</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Canadian Space Agency Analogue Geological Sample Library</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Canadian Space Agency, 2013 – 2014 (Co-Investigator; PI: Dr. Edward A. Cloutis)</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Canadian Space Agency — Spectral Characterization of Martian Dust Analogues (NOMAD/ExoMars)</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Canadian Space Agency, 2014 – 2015 (Co-Investigator; PI: Dr. Edward A. Cloutis)</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 3: AWARDS & RECOGNITION -->
+  <section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4 mt-0">
+      Awards & Recognition
+    </h2>
+    <div class="space-y-4">
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Asteroid 8998 Matthewizawa</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Designated 8998 Matthewizawa (1981 EG23) by the International Astronomical Union Minor Planet Center, July 2014</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">NASA Group Achievement Award — MSL Extended Mission-1 Science and Operations Team</p>
+        <p class="text-sm text-[var(--color-text-muted)]">National Aeronautics and Space Administration</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Hatch Postdoctoral Fellowship</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Royal Ontario Museum, 2014 – 2015</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">CREATE CATP Astrobiology Fellowship — Postdoctoral</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Natural Sciences and Engineering Research Council of Canada (NSERC), 2012 – 2014</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">NSERC Graduate Scholarship — Doctoral</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Natural Sciences and Engineering Research Council of Canada, 2008</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Mineralogical Association of Canada Foundation Scholarship</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Mineralogical Association of Canada, 2011 – 2012</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Peacock Memorial Prize, Walker Mineralogical Club</p>
+        <p class="text-sm text-[var(--color-text-muted)]">National level competition, 2008</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">Jerome H. Remick Poster Award (Gold), Geological Association of Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">GAC-MAC-SEG-SGA meeting, Quebec City, 2008</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 4: EDUCATION -->
+  <section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4 mt-0">
+      Education
+    </h2>
+    <div class="space-y-4">
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">PhD, Geology / Planetary Science</p>
+        <p class="text-[var(--color-text-muted)]">Department of Earth Sciences, University of Western Ontario, London, Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2012</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Dissertation: Planetary Materials Science and Astrobiology</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">MSc, Geology</p>
+        <p class="text-[var(--color-text-muted)]">Department of Earth Sciences, University of Western Ontario, London, Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2008</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Dissertation: Spectroscopic and Mineralogical Study of the Tagish Lake Carbonaceous Chondrite and Enstatite Chondrites</p>
+      </div>
+
+      <div>
+        <p class="font-semibold text-[var(--color-text)]">BSc (Honours), Planetary Science</p>
+        <p class="text-[var(--color-text-muted)]">Department of Physics &amp; Astronomy, University of Western Ontario, London, Canada</p>
+        <p class="text-sm text-[var(--color-text-muted)]">2006</p>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- SECTION 5: MENTORSHIP -->
+  <section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4 mt-0">
+      Mentorship
+    </h2>
+    <div class="space-y-3">
+      <p class="text-[var(--color-text)]">
+        1 PhD completed &middot; 4 PhD in progress &middot; 1 MSc completed &middot; 10+ undergraduate mentees from Romania, Greece, Canada, Japan, China, and the United States.
+      </p>
+      <div class="space-y-2 text-sm text-[var(--color-text-muted)]">
+        <p><span class="font-medium text-[var(--color-text)]">Dr. Fengke Cao</span> — PhD 2023, University of Western Ontario. Dissertation: Martian regolith breccia meteorites: spectroscopy, mineralogy, and applications to Mars exploration. Now Associate Researcher, Research Center for Planetary Sciences, Chengdu University of Technology, China.</p>
+        <p><span class="font-medium text-[var(--color-text)]">Diego Uribe</span> — MSc 2018, Department of Earth Sciences, University of Western Ontario. Dissertation: anomalous enstatite meteorites and parent-asteroid processes recorded by constituent minerals and petrographic textures.</p>
+        <p>4 PhD candidates currently in progress: Chijiwa Takamu (IPM, Okayama University — Martian surface processes and hyperspectral imaging), Xinyi Tian and Tingyao Luo (Chengdu University of Technology — Martian meteorites and Mars analogues), and Satheesh T. Saji (Chengdu University of Technology — primitive achondritic meteorites).</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- SECTION 6: SERVICE -->
+  <section class="mb-12">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-4 mt-0">
+      Service
+    </h2>
+    <div class="space-y-3 text-sm text-[var(--color-text-muted)]">
+      <p>Peer reviewer for Nature, Science, Geology, Icarus, Earth and Planetary Science Letters, Journal of Geophysical Research, Meteoritics &amp; Planetary Science, Planetary and Space Science, Astrobiology, Minerals, Geobiology, International Journal of Astrobiology, Precambrian Research, Mineralogy, and Spectroscopy.</p>
+      <p>NASA review panel member since 2013.</p>
+      <p>Panel member, OSIRIS-REx OLA Planetary Data System review.</p>
+      <p>Member, OSIRIS-REx mission science team.</p>
+      <p>Member, Dawn mission science team.</p>
+      <p>Member, Mars Science Laboratory (Curiosity) Extended Mission Science and Operations Team.</p>
+    </div>
+  </section>
+
+  <!-- SECTION 7: ANALYTICAL CAPABILITIES (SKILLS TAXONOMY) -->
+  <section class="mb-12 bg-[var(--color-surface)] border border-[var(--color-border)] rounded-sm p-6">
+    <h2 class="text-sm font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-6 mt-0">
+      Analytical Capabilities
+    </h2>
+    <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+
+      <div class="space-y-1">
+        <p class="font-semibold text-[var(--color-text)]">SEM/EDS</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Scanning electron microscopy with energy dispersive X-ray spectroscopy for nanoscale mineral identification and elemental mapping.</p>
+        <p class="text-sm"><span class="font-medium text-[var(--color-text-muted)]">Industry use:</span> <span class="text-[var(--color-text-muted)]">Mineral exploration, materials characterization, quality control in mining and manufacturing.</span></p>
+      </div>
+
+      <div class="space-y-1">
+        <p class="font-semibold text-[var(--color-text)]">Micro-XRD</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Micro X-ray diffraction for crystallographic phase identification at grain scale in complex mineral assemblages.</p>
+        <p class="text-sm"><span class="font-medium text-[var(--color-text-muted)]">Industry use:</span> <span class="text-[var(--color-text-muted)]">Ore mineralogy, shock metamorphism characterization, pharmaceutical crystallography.</span></p>
+      </div>
+
+      <div class="space-y-1">
+        <p class="font-semibold text-[var(--color-text)]">Raman Spectromicroscopy</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Molecular and crystal structure characterization via laser excitation; sensitive to carbon phases, sulphates, and fine-grained minerals.</p>
+        <p class="text-sm"><span class="font-medium text-[var(--color-text-muted)]">Industry use:</span> <span class="text-[var(--color-text-muted)]">Geological survey, carbon material analysis, pharmaceutical and semiconductor quality control.</span></p>
+      </div>
+
+      <div class="space-y-1">
+        <p class="font-semibold text-[var(--color-text)]">UV-vis-NIR Reflectance Spectroscopy</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Reflectance measurements from 200–2500 nm for mineral and rock surface characterization; basis for remote sensing calibration.</p>
+        <p class="text-sm"><span class="font-medium text-[var(--color-text-muted)]">Industry use:</span> <span class="text-[var(--color-text-muted)]">Remote sensing calibration, mining exploration, environmental monitoring of tailings and contaminated sites.</span></p>
+      </div>
+
+      <div class="space-y-1">
+        <p class="font-semibold text-[var(--color-text)]">Mid-IR Spectroscopy</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Infrared absorption spectroscopy for molecular identification in geological materials; high sensitivity to sulphates, carbonates, and phyllosilicates.</p>
+        <p class="text-sm"><span class="font-medium text-[var(--color-text-muted)]">Industry use:</span> <span class="text-[var(--color-text-muted)]">Environmental monitoring, hydrocarbon detection, soil and sediment geochemical assessment.</span></p>
+      </div>
+
+      <div class="space-y-1">
+        <p class="font-semibold text-[var(--color-text)]">Hyperspectral Imaging</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Spatially resolved spectral data cube acquisition and analysis; co-leads the J-PEAKS hyperspectral instrument initiative at Okayama University.</p>
+        <p class="text-sm"><span class="font-medium text-[var(--color-text-muted)]">Industry use:</span> <span class="text-[var(--color-text-muted)]">Drill core scanning, critical mineral mapping, agricultural and environmental remote sensing.</span></p>
+      </div>
+
+      <div class="space-y-1">
+        <p class="font-semibold text-[var(--color-text)]">Electron Microprobe</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Wavelength-dispersive X-ray analysis (WDS) for quantitative major element chemistry at micron resolution.</p>
+        <p class="text-sm"><span class="font-medium text-[var(--color-text-muted)]">Industry use:</span> <span class="text-[var(--color-text-muted)]">Ore grade assessment, materials science, quality control in aerospace and metallurgy.</span></p>
+      </div>
+
+      <div class="space-y-1">
+        <p class="font-semibold text-[var(--color-text)]">AI/ML Spectral Classification</p>
+        <p class="text-sm text-[var(--color-text-muted)]">Machine learning pipelines for automated mineral identification from spectral and hyperspectral data; supervised and unsupervised approaches.</p>
+        <p class="text-sm"><span class="font-medium text-[var(--color-text-muted)]">Industry use:</span> <span class="text-[var(--color-text-muted)]">Automated drill core logging, satellite mineral mapping, real-time field classification systems.</span></p>
+      </div>
+
+    </div>
+  </section>
+
+</BaseLayout>

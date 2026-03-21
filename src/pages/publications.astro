@@ -1,0 +1,68 @@
+---
+import BaseLayout from '../components/layout/BaseLayout.astro';
+import publications from '../data/publications.json';
+
+type Pub = typeof publications[number];
+
+// DATA: authors array contains strings like "Izawa MRM" or "Izawa MRMM"
+// These are the only variants of Matt's name that appear in the JSON.
+// set:html is safe here — data comes from local JSON, not user input.
+function formatAuthors(authors: string[], maxDisplay = 6): string {
+  const formatted = authors.map(a =>
+    (a === 'Izawa MRM' || a === 'Izawa MRMM' || a === 'Izawa M.R.M.')
+      ? `<strong>${a}</strong>`
+      : a
+  );
+  if (formatted.length <= maxDisplay) return formatted.join(', ');
+  // Truncate at maxDisplay; Matt may not appear in truncated display for co-authored
+  // team papers (e.g. 59-author OSIRIS-REx paper) — this is correct academic behavior.
+  return formatted.slice(0, maxDisplay).join(', ') + ' et al.';
+}
+
+// Group by year. Map preserves insertion order; sort explicitly for descending.
+const byYear = publications.reduce((acc, pub) => {
+  if (!acc.has(pub.year)) acc.set(pub.year, [] as Pub[]);
+  acc.get(pub.year)!.push(pub);
+  return acc;
+}, new Map<number, Pub[]>());
+
+// Newest year first (PUBS-03)
+const sortedYears = [...byYear.keys()].sort((a, b) => b - a);
+---
+
+<BaseLayout title="Publications">
+  <div class="mb-10">
+    <h1 class="text-2xl font-semibold text-[var(--color-text)] mb-1">Publications</h1>
+    <p class="text-sm text-[var(--color-text-muted)]">81 peer-reviewed publications</p>
+  </div>
+
+  {sortedYears.map(year => {
+    const papers = byYear.get(year)!;
+    return (
+      <section class="mb-10">
+        <h2 class="text-lg font-semibold text-[var(--color-text)] mb-4 pb-2 border-b border-[var(--color-border)]">
+          {year}
+        </h2>
+        <div class="space-y-5">
+          {papers.map(pub => (
+            <article class={`py-3 pl-4 border-l-2 ${pub.firstAuthor ? 'border-[var(--color-accent)]' : 'border-transparent'}`}>
+              <p class="text-sm text-[var(--color-text-muted)] mb-1 leading-relaxed">
+                <span set:html={formatAuthors(pub.authors)} />
+                {' '}({pub.year}).
+              </p>
+              <p class="text-[var(--color-text)] leading-snug mb-1">
+                {pub.url
+                  ? <a href={pub.url} class="hover:text-[var(--color-accent)] underline underline-offset-2 decoration-[var(--color-border)]" target="_blank" rel="noopener noreferrer">{pub.title}</a>
+                  : <span>{pub.title}</span>
+                }
+              </p>
+              <p class="text-sm text-[var(--color-text-muted)] italic">
+                {pub.journal}{pub.volume ? `, ${pub.volume}` : ''}{pub.pages ? `, ${pub.pages}` : ''}.
+              </p>
+            </article>
+          ))}
+        </div>
+      </section>
+    );
+  })}
+</BaseLayout>
