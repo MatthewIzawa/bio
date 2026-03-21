@@ -52,74 +52,107 @@ const confSortedYears = [...confByYear.keys()].sort((a, b) => b - a);
 ---
 
 <BaseLayout title="Publications">
-  <div class="mb-10">
-    <h1 class="text-2xl font-semibold text-[var(--color-text)] mb-1">Publications</h1>
-    <p class="text-sm text-[var(--color-text-muted)]">81 peer-reviewed publications</p>
+  <div class="mb-6">
+    <h1 class="text-2xl font-semibold text-[var(--color-text)] mb-4">Publications</h1>
+    <div class="flex gap-0 border-b border-[var(--color-border)]">
+      <button
+        id="tab-peer-reviewed"
+        class="px-4 py-2 text-sm font-medium border-b-2 border-[var(--color-accent)] text-[var(--color-accent)]"
+        data-tab="peer-reviewed"
+      >
+        Peer-Reviewed ({publications.length})
+      </button>
+      <button
+        id="tab-conferences"
+        class="px-4 py-2 text-sm font-medium border-b-2 border-transparent text-[var(--color-text-muted)] hover:text-[var(--color-text)]"
+        data-tab="conferences"
+      >
+        Conference Presentations ({conferences.length})
+      </button>
+    </div>
   </div>
 
-  {sortedYears.map(year => {
-    const papers = byYear.get(year)!;
-    return (
-      <section class="mb-10">
-        <h2 class="text-lg font-semibold text-[var(--color-text)] mb-4 pb-2 border-b border-[var(--color-border)]">
-          {year}
-        </h2>
-        <div class="space-y-5">
-          {papers.map(pub => (
-            <article class={`py-3 pl-4 border-l-2 ${pub.firstAuthor ? 'border-[var(--color-accent)]' : 'border-transparent'}`}>
-              <p class="text-sm text-[var(--color-text-muted)] mb-1 leading-relaxed">
-                <span set:html={formatAuthors(pub.authors)} />
-                {' '}({pub.year}).
-              </p>
-              <p class="text-[var(--color-text)] leading-snug mb-1">
-                {pub.url
-                  ? <a href={pub.url} class="hover:text-[var(--color-accent)] underline underline-offset-2 decoration-[var(--color-border)]" target="_blank" rel="noopener noreferrer">{pub.title}</a>
-                  : <span>{pub.title}</span>
-                }
-              </p>
-              <p class="text-sm text-[var(--color-text-muted)] italic">
-                {pub.journal}{pub.volume ? `, ${pub.volume}` : ''}{pub.pages ? `, ${pub.pages}` : ''}.
-              </p>
-            </article>
-          ))}
-        </div>
-      </section>
-    );
-  })}
-
-  <div class="mb-10 mt-16 pt-10 border-t border-[var(--color-border)]">
-    <h1 class="text-2xl font-semibold text-[var(--color-text)] mb-1">Conference Presentations &amp; Abstracts</h1>
-    <p class="text-sm text-[var(--color-text-muted)]">{conferences.length} non-refereed contributions</p>
+  <div id="panel-peer-reviewed">
+    {sortedYears.map(year => {
+      const papers = byYear.get(year)!;
+      return (
+        <section class="mb-10">
+          <h2 class="text-lg font-semibold text-[var(--color-text)] mb-4 pb-2 border-b border-[var(--color-border)]">
+            {year}
+          </h2>
+          <div class="space-y-5">
+            {papers.map(pub => (
+              <article class={`py-3 pl-4 border-l-2 ${pub.firstAuthor ? 'border-[var(--color-accent)]' : 'border-transparent'}`}>
+                <p class="text-sm text-[var(--color-text-muted)] mb-1 leading-relaxed">
+                  <span set:html={formatAuthors(pub.authors)} />
+                  {' '}({pub.year}).
+                </p>
+                <p class="text-[var(--color-text)] leading-snug mb-1">
+                  {pub.url
+                    ? <a href={pub.url} class="hover:text-[var(--color-accent)] underline underline-offset-2 decoration-[var(--color-border)]" target="_blank" rel="noopener noreferrer">{pub.title}</a>
+                    : <span>{pub.title}</span>
+                  }
+                </p>
+                <p class="text-sm text-[var(--color-text-muted)] italic">
+                  {pub.journal}{pub.volume ? `, ${pub.volume}` : ''}{pub.pages ? `, ${pub.pages}` : ''}.
+                </p>
+              </article>
+            ))}
+          </div>
+        </section>
+      );
+    })}
   </div>
 
-  {confSortedYears.map(year => {
-    const items = confByYear.get(year)!;
-    return (
-      <section class="mb-10">
-        <h2 class="text-lg font-semibold text-[var(--color-text)] mb-4 pb-2 border-b border-[var(--color-border)]">
-          {year}
-        </h2>
-        <div class="space-y-5">
-          {items.map(conf => (
-            <article class={`py-3 pl-4 border-l-2 ${conf.firstAuthor ? 'border-[var(--color-accent)]' : 'border-transparent'}`}>
-              <p class="text-sm text-[var(--color-text-muted)] mb-1 leading-relaxed">
-                <span set:html={formatConfAuthors(conf.authors)} />
-                {' '}({conf.year}).
-              </p>
-              <p class="text-[var(--color-text)] leading-snug mb-1">
-                {conf.pdf
-                  ? <a href={`${base}${conf.pdf}`} class="hover:text-[var(--color-accent)] underline underline-offset-2 decoration-[var(--color-border)]" target="_blank" rel="noopener noreferrer">{conf.title}</a>
-                  : <span>{conf.title}</span>
-                }
-                {conf.pdf && <span class="text-xs text-[var(--color-text-muted)] ml-1">[PDF]</span>}
-              </p>
-              <p class="text-sm text-[var(--color-text-muted)] italic">
-                {conf.venue}
-              </p>
-            </article>
-          ))}
-        </div>
-      </section>
-    );
-  })}
+  <div id="panel-conferences" class="hidden">
+    {confSortedYears.map(year => {
+      const items = confByYear.get(year)!;
+      return (
+        <section class="mb-10">
+          <h2 class="text-lg font-semibold text-[var(--color-text)] mb-4 pb-2 border-b border-[var(--color-border)]">
+            {year}
+          </h2>
+          <div class="space-y-5">
+            {items.map(conf => (
+              <article class={`py-3 pl-4 border-l-2 ${conf.firstAuthor ? 'border-[var(--color-accent)]' : 'border-transparent'}`}>
+                <p class="text-sm text-[var(--color-text-muted)] mb-1 leading-relaxed">
+                  <span set:html={formatConfAuthors(conf.authors)} />
+                  {' '}({conf.year}).
+                </p>
+                <p class="text-[var(--color-text)] leading-snug mb-1">
+                  {conf.pdf
+                    ? <a href={`${base}${conf.pdf}`} class="hover:text-[var(--color-accent)] underline underline-offset-2 decoration-[var(--color-border)]" target="_blank" rel="noopener noreferrer">{conf.title}</a>
+                    : <span>{conf.title}</span>
+                  }
+                  {conf.pdf && <span class="text-xs text-[var(--color-text-muted)] ml-1">[PDF]</span>}
+                </p>
+                <p class="text-sm text-[var(--color-text-muted)] italic">
+                  {conf.venue}
+                </p>
+              </article>
+            ))}
+          </div>
+        </section>
+      );
+    })}
+  </div>
+
+  <script>
+    document.querySelectorAll('[data-tab]').forEach(btn => {
+      btn.addEventListener('click', () => {
+        const tab = btn.getAttribute('data-tab');
+        // Toggle panels
+        document.getElementById('panel-peer-reviewed')!.classList.toggle('hidden', tab !== 'peer-reviewed');
+        document.getElementById('panel-conferences')!.classList.toggle('hidden', tab !== 'conferences');
+        // Toggle tab styles
+        document.querySelectorAll('[data-tab]').forEach(b => {
+          const isActive = b.getAttribute('data-tab') === tab;
+          b.classList.toggle('border-[var(--color-accent)]', isActive);
+          b.classList.toggle('text-[var(--color-accent)]', isActive);
+          b.classList.toggle('border-transparent', !isActive);
+          b.classList.toggle('text-[var(--color-text-muted)]', !isActive);
+        });
+      });
+    });
+  </script>
 </BaseLayout>
