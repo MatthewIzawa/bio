@@ -1,5 +1,7 @@
 ---
 import BaseLayout from '../components/layout/BaseLayout.astro';
+import { Image } from 'astro:assets';
+import hyperspectralImg from '../assets/research-hyperspectral.png';
 ---
 <BaseLayout title="Research">
 
@@ -58,6 +60,17 @@ import BaseLayout from '../components/layout/BaseLayout.astro';
         sensors and satellite imagery.
       </p>
     </div>
+    <figure class="my-6">
+      <Image
+        src={hyperspectralImg}
+        alt="AI-generated mineral phase map from hyperspectral imaging, showing automated classification of mineral phases in a rock sample"
+        width={800}
+        class="w-full rounded-sm border border-[var(--color-border)]"
+      />
+      <figcaption class="mt-2 text-xs text-[var(--color-text-muted)]">
+        Automated mineral phase map generated from hyperspectral imaging data using AI classification — an example of the analytical workflows being developed for drill core and geological sample analysis.
+      </figcaption>
+    </figure>
     <div class="bg-[var(--color-surface)] border border-[var(--color-border)] rounded-sm p-5">
       <h3 class="text-xs font-semibold uppercase tracking-widest text-[var(--color-accent)] mb-3">Industry Applications</h3>
       <ul class="space-y-1 text-sm text-[var(--color-text)]">
