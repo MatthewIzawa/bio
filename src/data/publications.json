@@ -1,5 +1,39 @@
 [
   {
+    "key": "cao2026shockfeldspar",
+    "year": 2026,
+    "type": "journal",
+    "title": "Shock Metamorphic Effects in Feldspar in Martian Regolith Breccia: Measurement, Quantification, and Implications",
+    "authors": [
+      "Cao F",
+      "Flemming RL",
+      "Izawa MRM",
+      "Loiselle L",
+      "Di Cecco VE",
+      "Tait KT",
+      "Moriguti T",
+      "Houde VL",
+      "Okuchi T",
+      "Hyde BC",
+      "Moser DE",
+      "Osinski GR",
+      "Agee CB",
+      "Irving AJ"
+    ],
+    "firstAuthor": false,
+    "journal": "Journal of Geophysical Research: Planets",
+    "volume": "131",
+    "pages": "e2025JE009228",
+    "doi": "10.1029/2025JE009228",
+    "url": "https://doi.org/10.1029/2025JE009228",
+    "themes": [
+      "meteorites",
+      "Mars",
+      "methods"
+    ],
+    "highlight": false
+  },
+  {
     "key": "izawa2025shock",
     "year": 2025,
     "type": "journal",
