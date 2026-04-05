@@ -398,6 +398,29 @@
     "url": "https://www.hou.usra.edu/meetings/lpsc2020/pdf/2016.pdf"
   },
   {
+    "key": "cloutis2019asteroidscience-murchison",
+    "year": 2019,
+    "title": "Redder/Bluer, Brighter/Darker, Deeper/Shallower Absorption Bands: Effects of Physical Properties, Space Weathering, and Observing Geometry on Reflectance Spectra of the Murchison CM2 Carbonaceous Chondrite",
+    "authors": [
+      "E. A. Cloutis",
+      "V. B. Pietrasz",
+      "C. Kiddell",
+      "M. R. M. Izawa",
+      "P. Vernazza",
+      "T. H. Burbine",
+      "F. DeMeo",
+      "K. T. Tait",
+      "J. F. Bell",
+      "J. P. Mann",
+      "D. M. Applin",
+      "V. Reddy"
+    ],
+    "firstAuthor": false,
+    "venue": "Asteroid Science in the Age of Hayabusa2 and OSIRIS-REx, abstract 2040",
+    "pdf": null,
+    "url": "https://ui.adsabs.harvard.edu/abs/2019LPICo2189.2040C/abstract"
+  },
+  {
     "key": "cao2019metsoc-mars",
     "year": 2019,
     "title": "Mineralogy and shock effects in Martian regolith breccias",
