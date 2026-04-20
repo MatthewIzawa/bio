@@ -69,6 +69,79 @@
     "url": "https://www.hou.usra.edu/meetings/lpsc2026/pdf/1422.pdf"
   },
   {
+    "key": "izawa2026ima-lunar-shock",
+    "year": 2026,
+    "title": "Quantifying Shock Metamorphism in Lunar Meteorites Using Warren–Averbach Analysis and Pair Distribution Functions",
+    "authors": [
+      "M. R. M. Izawa",
+      "E. A. Cloutis",
+      "D. M. Applin",
+      "K. M. Peters",
+      "R. L. Flemming",
+      "P. J. A. McCausland",
+      "L. E. Jenkins",
+      "B. J. Hall",
+      "F. Cao"
+    ],
+    "firstAuthor": true,
+    "venue": "International Mineralogical Association Meeting 2026, Nanjing",
+    "pdf": null,
+    "url": null
+  },
+  {
+    "key": "tian2026ima-nakhlite",
+    "year": 2026,
+    "title": "Petrography and Mineralogy of the Martian Nakhlite Meteorite Hassi Messaoud 001",
+    "authors": [
+      "X. Tian",
+      "F. Cao",
+      "Y. S. Zhao",
+      "M. R. M. Izawa",
+      "Y. Qu",
+      "N. Ma",
+      "R. L. Flemming"
+    ],
+    "firstAuthor": false,
+    "venue": "International Mineralogical Association Meeting 2026, Nanjing",
+    "pdf": null,
+    "url": null
+  },
+  {
+    "key": "cao2026ima-plagioclase-amorphization",
+    "year": 2026,
+    "title": "Quantifying Shock-Induced Amorphization in Plagioclase-Rich Rocks Using Micro-XRD",
+    "authors": [
+      "F. Cao",
+      "R. L. Flemming",
+      "M. R. M. Izawa",
+      "S. J. Jaret",
+      "J. R. Johnson",
+      "P. J. A. McCausland"
+    ],
+    "firstAuthor": false,
+    "venue": "International Mineralogical Association Meeting 2026, Nanjing",
+    "pdf": null,
+    "url": null
+  },
+  {
+    "key": "saji2026ima-lonar",
+    "year": 2026,
+    "title": "Quantitative Shock Barometry of Plagioclase from Lonar Impact Crater Using Micro-XRD and Multi-Scale Microstructural Analysis",
+    "authors": [
+      "S. T. Saji",
+      "F. Cao",
+      "M. R. M. Izawa",
+      "Y. S. Zhao",
+      "R. L. Flemming",
+      "P. J. A. McCausland",
+      "S. P. Rajappan"
+    ],
+    "firstAuthor": false,
+    "venue": "International Mineralogical Association Meeting 2026, Nanjing",
+    "pdf": null,
+    "url": null
+  },
+  {
     "key": "applin2025lpsc-mineral",
     "year": 2025,
     "title": "Reflectance Spectroscopy and Modal Mineralogy of LL Chondrites",
