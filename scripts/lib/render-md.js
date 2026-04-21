@@ -12,7 +12,7 @@ function renderYearBlock(year, entries, mentees) {
     const { runs } = formatCitation(entry, mentees);
     lines.push(`${i + 1}. ${renderRunsAsMarkdown(runs)}`);
   });
-  return lines.join('\n');
+  return lines.join('\n\n');
 }
 
 function renderSection(heading, yearGroups, mentees) {

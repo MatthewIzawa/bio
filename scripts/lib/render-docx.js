@@ -27,7 +27,10 @@ function yearParagraphs(year, entries, mentees) {
   entries.forEach((entry, i) => {
     const { runs } = formatCitation(entry, mentees);
     const prefix = new TextRun(`${i + 1}. `);
-    out.push(new Paragraph({ children: [prefix, ...runsToTextRuns(runs)] }));
+    out.push(new Paragraph({
+      spacing: { after: 160 }, // ~8 pt after each citation so entries breathe
+      children: [prefix, ...runsToTextRuns(runs)],
+    }));
   });
   return out;
 }
