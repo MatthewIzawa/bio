@@ -4,6 +4,10 @@ const IZAWA = 'M. R. M. Izawa';
 
 function studentMarker(mentee) {
   if (!mentee) return null;
+  // Only formal students (supervisor/co-supervisor relationship) get a marker.
+  // People with relationship === "mentee" are tracked for records but not flagged
+  // in citations, since Izawa was not their formal advisor.
+  if (mentee.relationship !== 'student') return null;
   if (mentee.status === 'in_progress') return '†';
   if (mentee.status === 'completed')   return '‡';
   return null;

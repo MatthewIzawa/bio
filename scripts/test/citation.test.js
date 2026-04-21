@@ -3,8 +3,10 @@ import assert from 'node:assert/strict';
 import { formatCitation, renderRunsAsMarkdown } from '../lib/citation.js';
 
 const mentees = [
-  { canonicalName: 'F. Cao', aliases: ['Fengke Cao'], role: 'PhD', status: 'completed' },
-  { canonicalName: 'T. Luo', aliases: [], role: 'PhD', status: 'in_progress' },
+  { canonicalName: 'F. Cao', aliases: ['Fengke Cao'], relationship: 'student', role: 'PhD', status: 'completed' },
+  { canonicalName: 'T. Luo', aliases: [], relationship: 'student', role: 'PhD', status: 'in_progress' },
+  // A "mentee" (guidance without formal advisor role) must NOT be marked:
+  { canonicalName: 'A. Mentee', aliases: [], relationship: 'mentee', role: 'PhD', status: 'completed' },
 ];
 
 test('formatCitation: bolds Izawa, adds † for current student, ‡ for former', () => {
@@ -19,6 +21,18 @@ test('formatCitation: bolds Izawa, adds † for current student, ‡ for former'
   assert.ok(izawa && izawa.bold === true, 'Izawa run must be bold');
   const supers = runs.filter(r => r.superscript).map(r => r.text);
   assert.deepEqual(supers, ['‡', '†']);  // Cao completed, Luo in_progress
+});
+
+test('formatCitation: relationship="mentee" authors do NOT receive a marker', () => {
+  const entry = {
+    year: 2026,
+    title: 'T',
+    authors: ['A. Mentee', 'M. R. M. Izawa'],
+    venue: 'V',
+  };
+  const { runs } = formatCitation(entry, mentees);
+  const supers = runs.filter(r => r.superscript).map(r => r.text);
+  assert.deepEqual(supers, [], 'mentee (non-student) must not be flagged');
 });
 
 test('formatCitation: venue is italicized', () => {

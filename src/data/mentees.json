@@ -1,15 +1,17 @@
 [
   {
-    "canonicalName": "F. Cao",
-    "aliases": ["Fengke Cao"],
+    "canonicalName": "Chijiwa Takamu",
+    "aliases": ["T. Chijiwa"],
+    "relationship": "student",
     "role": "PhD",
-    "status": "completed",
-    "year": 2023,
-    "institution": "Western University"
+    "status": "in_progress",
+    "institution": "Institute for Planetary Materials, Okayama University",
+    "coSupervisor": "Trishit Ruj"
   },
   {
     "canonicalName": "X. Tian",
     "aliases": ["Xinyi Tian"],
+    "relationship": "student",
     "role": "PhD",
     "status": "in_progress",
     "institution": "Chengdu University of Technology"
@@ -17,6 +19,7 @@
   {
     "canonicalName": "T. Luo",
     "aliases": ["Tingyao Luo"],
+    "relationship": "student",
     "role": "PhD",
     "status": "in_progress",
     "institution": "Chengdu University of Technology"
@@ -24,16 +27,234 @@
   {
     "canonicalName": "S. T. Saji",
     "aliases": ["Satheesh T. Saji"],
+    "relationship": "student",
     "role": "PhD",
     "status": "in_progress",
     "institution": "Chengdu University of Technology"
   },
   {
+    "canonicalName": "F. Cao",
+    "aliases": ["Fengke Cao"],
+    "relationship": "student",
+    "role": "PhD",
+    "status": "completed",
+    "year": 2023,
+    "institution": "Western University"
+  },
+  {
     "canonicalName": "D. D. Uribe",
     "aliases": ["Diego Uribe", "D. Uribe"],
+    "relationship": "student",
     "role": "MSc",
     "status": "completed",
     "year": 2018,
     "institution": "Western University"
+  },
+
+  {
+    "canonicalName": "B. N. L. Sharkey",
+    "aliases": ["B. Sharkey", "Benjamin Sharkey"],
+    "relationship": "mentee",
+    "role": "PhD",
+    "status": "completed",
+    "year": 2020,
+    "institution": "Lunar and Planetary Laboratory, University of Arizona",
+    "note": "Guidance on Lucy mission target spectra interpretation (formal supervisor: Prof. Vishnu Reddy)"
+  },
+  {
+    "canonicalName": "S. Yokoyama",
+    "aliases": ["Sean Yokoyama"],
+    "relationship": "mentee",
+    "role": "internship",
+    "status": "completed",
+    "year": 2019,
+    "institution": "Misasa 2019 Summer Internship Program"
+  },
+  {
+    "canonicalName": "J. A. Berger",
+    "aliases": ["Jeffrey Berger"],
+    "relationship": "mentee",
+    "role": "PhD",
+    "status": "completed",
+    "year": 2017,
+    "institution": "Western University",
+    "note": "Formal supervisors: M. E. Schmidt, R. L. Flemming"
+  },
+  {
+    "canonicalName": "J. M. Stromberg",
+    "aliases": ["Jessica Stromberg", "Jessica M. Stromberg"],
+    "relationship": "mentee",
+    "role": "PhD",
+    "status": "completed",
+    "year": 2017,
+    "institution": "Western University",
+    "note": "Formal supervisors: N. R. Banerjee, E. A. Cloutis"
+  },
+  {
+    "canonicalName": "A. M. McGraw",
+    "aliases": ["Allison McGraw"],
+    "relationship": "mentee",
+    "role": "PhD",
+    "status": "completed",
+    "institution": "Lunar and Planetary Laboratory, University of Arizona"
+  },
+  {
+    "canonicalName": "T. Dehais",
+    "aliases": ["Thomas Dehais"],
+    "relationship": "mentee",
+    "role": "graduate",
+    "status": "completed",
+    "year": 2017,
+    "institution": "Institute for Planetary Materials",
+    "note": "Formal supervisor: E. Nakamura"
+  },
+  {
+    "canonicalName": "D. Anders",
+    "aliases": ["Denise Anders"],
+    "relationship": "mentee",
+    "role": "PhD",
+    "status": "completed",
+    "year": 2016,
+    "institution": "Western University",
+    "note": "Formal supervisors: G. R. Osinski, R. A. F. Grieve"
+  },
+  {
+    "canonicalName": "M. A. Craig",
+    "aliases": ["Michael Craig", "Michael A. Craig", "M. A. McCraig"],
+    "relationship": "mentee",
+    "role": "PhD",
+    "status": "completed",
+    "year": 2014,
+    "institution": "Western University",
+    "note": "Formal supervisors: R. L. Flemming, G. R. Osinski, E. A. Cloutis"
+  },
+  {
+    "canonicalName": "L. D. Anderson",
+    "aliases": ["Lauren Anderson", "Lauren D. Anderson"],
+    "relationship": "mentee",
+    "role": "graduate",
+    "status": "completed",
+    "year": 2010,
+    "institution": "Lehigh University",
+    "note": "Formal supervisor: G. E. Bebout"
+  },
+  {
+    "canonicalName": "I. S. Foster",
+    "aliases": ["Ian Foster"],
+    "relationship": "mentee",
+    "role": "graduate",
+    "status": "completed",
+    "year": 2009,
+    "institution": "Western University",
+    "note": "Formal supervisor: G. Southam"
+  },
+
+  {
+    "canonicalName": "M.-N. Stancu",
+    "aliases": ["Monica Stancu", "Monica-Nicoleta Stancu"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2018,
+    "institution": "University of Bucharest (Misasa 2018 Internship)"
+  },
+  {
+    "canonicalName": "E. Koutoula",
+    "aliases": ["Eleni Koutoula"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2018,
+    "institution": "National and Kapodistrian University of Athens (Misasa 2018 Internship)"
+  },
+  {
+    "canonicalName": "S. Fraser",
+    "aliases": ["Samantha Fraser"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2015,
+    "institution": "University of Winnipeg"
+  },
+  {
+    "canonicalName": "M. Cuddy",
+    "aliases": ["Matthew Cuddy"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2015,
+    "institution": "University of Winnipeg"
+  },
+  {
+    "canonicalName": "D. M. Applin",
+    "aliases": ["Daniel Applin", "Daniel M. Applin"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2014,
+    "institution": "University of Winnipeg"
+  },
+  {
+    "canonicalName": "M. S. Bramble",
+    "aliases": ["Michael Bramble"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2013,
+    "institution": "Western University"
+  },
+  {
+    "canonicalName": "V. Salvi",
+    "aliases": ["Vaishnavi Salvi"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2016,
+    "institution": "Howardites Internship Project (Izawa co-supervision)"
+  },
+  {
+    "canonicalName": "V. Szlachta",
+    "aliases": ["Victoria Szlachta"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2016,
+    "institution": "Howardites Internship Project (Izawa co-supervision)"
+  },
+  {
+    "canonicalName": "R. Turley",
+    "aliases": ["Richard Turley"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2016,
+    "institution": "Howardites Internship Project (Izawa co-supervision)"
+  },
+  {
+    "canonicalName": "N. Raia",
+    "aliases": ["Natalie Raia"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2016,
+    "institution": "Howardites Internship Project (Izawa co-supervision)"
+  },
+  {
+    "canonicalName": "P. Frossard",
+    "aliases": ["Paul Frossard"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2016,
+    "institution": "Howardites Internship Project (Izawa co-supervision)"
+  },
+  {
+    "canonicalName": "K. Kraft",
+    "aliases": ["Kaylee Kraft"],
+    "relationship": "mentee",
+    "role": "undergraduate",
+    "status": "completed",
+    "year": 2016,
+    "institution": "Howardites Internship Project (Izawa co-supervision)"
   }
 ]
