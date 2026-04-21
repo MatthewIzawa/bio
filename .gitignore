@@ -10,3 +10,8 @@ node_modules/
 
 # macOS
 .DS_Store
+
+# generated publication lists
+exports/*.md
+exports/*.docx
+!exports/README.md

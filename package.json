@@ -9,7 +9,12 @@
     "dev": "astro dev",
     "build": "astro build",
     "preview": "astro preview",
-    "astro": "astro"
+    "astro": "astro",
+    "pubs": "node scripts/generate-pubs.js --audience=all",
+    "pubs:academic": "node scripts/generate-pubs.js --audience=academic",
+    "pubs:industry": "node scripts/generate-pubs.js --audience=industry",
+    "pubs:all": "node scripts/generate-pubs.js --audience=all",
+    "test:pubs": "node --test scripts/test/"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.1",
@@ -21,6 +26,7 @@
     "tailwindcss": "^4.2.2"
   },
   "devDependencies": {
-    "@astrojs/check": "^0.9.8"
+    "@astrojs/check": "^0.9.8",
+    "docx": "^9.6.1"
   }
 }
