@@ -14,7 +14,7 @@
     "pubs:academic": "node scripts/generate-pubs.js --audience=academic",
     "pubs:industry": "node scripts/generate-pubs.js --audience=industry",
     "pubs:all": "node scripts/generate-pubs.js --audience=all",
-    "test:pubs": "node --test scripts/test/"
+    "test:pubs": "node --test scripts/test/*.test.js"
   },
   "dependencies": {
     "@astrojs/sitemap": "^3.7.1",
