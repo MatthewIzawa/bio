@@ -1,0 +1,39 @@
+[
+  {
+    "canonicalName": "F. Cao",
+    "aliases": ["Fengke Cao"],
+    "role": "PhD",
+    "status": "completed",
+    "year": 2023,
+    "institution": "Western University"
+  },
+  {
+    "canonicalName": "X. Tian",
+    "aliases": ["Xinyi Tian"],
+    "role": "PhD",
+    "status": "in_progress",
+    "institution": "Chengdu University of Technology"
+  },
+  {
+    "canonicalName": "T. Luo",
+    "aliases": ["Tingyao Luo"],
+    "role": "PhD",
+    "status": "in_progress",
+    "institution": "Chengdu University of Technology"
+  },
+  {
+    "canonicalName": "S. T. Saji",
+    "aliases": ["Satheesh T. Saji"],
+    "role": "PhD",
+    "status": "in_progress",
+    "institution": "Chengdu University of Technology"
+  },
+  {
+    "canonicalName": "D. D. Uribe",
+    "aliases": ["Diego Uribe", "D. Uribe"],
+    "role": "MSc",
+    "status": "completed",
+    "year": 2018,
+    "institution": "Western University"
+  }
+]
