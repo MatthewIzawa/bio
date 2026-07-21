@@ -319,6 +319,19 @@
     "url": "https://www.hou.usra.edu/meetings/lpsc2022/pdf/2369.pdf"
   },
   {
+    "key": "potin2021lpsc-martianmoons",
+    "year": 2021,
+    "title": "Laboratory Spectroscopy to Assess the Origin of the Martian Moons",
+    "authors": [
+      "S. M. Potin",
+      "E. A. Cloutis",
+      "M. R. M. Izawa"
+    ],
+    "firstAuthor": false,
+    "venue": "52nd Lunar and Planetary Science Conference 2021 abstract 1544",
+    "pdf": null
+  },
+  {
     "key": "cao2021lpsc-nwa7034",
     "year": 2021,
     "title": "Mineralogy and Shock Effects in Martian Breccia Northwest Africa 7034 by In Situ Micro X-ray Diffraction",
