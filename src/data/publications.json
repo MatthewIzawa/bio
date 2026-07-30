@@ -128,7 +128,7 @@
     "journal": "Icarus",
     "volume": "359",
     "pages": "114328",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2021.114328",
     "url": "https://doi.org/10.1016/j.icarus.2021.114328",
     "themes": [
       "spectroscopy",
@@ -153,7 +153,7 @@
     "journal": "Icarus",
     "volume": "362",
     "pages": "114423",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2021.114423",
     "url": "https://doi.org/10.1016/j.icarus.2021.114423",
     "themes": [
       "spectroscopy",
@@ -177,7 +177,7 @@
     "journal": "The Planetary Science Journal",
     "volume": "2",
     "pages": null,
-    "doi": null,
+    "doi": "10.3847/PSJ/ac0bbe",
     "url": "https://doi.org/10.3847/PSJ/ac0bbe",
     "themes": [
       "spectroscopy"
@@ -199,7 +199,7 @@
     "journal": "Icarus",
     "volume": "361",
     "pages": "114349",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2021.114349",
     "url": "https://doi.org/10.1016/j.icarus.2021.114349",
     "themes": [
       "spectroscopy",
@@ -222,7 +222,7 @@
     "journal": "Icarus",
     "volume": "354",
     "pages": "114043",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2020.114043",
     "url": "https://doi.org/10.1016/j.icarus.2020.114043",
     "themes": [
       "spectroscopy",
@@ -249,7 +249,7 @@
     "journal": "Astronomical Journal",
     "volume": "159",
     "pages": "1-11",
-    "doi": null,
+    "doi": "10.3847/1538-3881/ab5fe7",
     "url": "https://doi.org/10.3847/1538-3881/ab5fe7",
     "themes": [
       "spectroscopy",
@@ -280,7 +280,7 @@
     "journal": "Geochimica et Cosmochimica Acta",
     "volume": "283",
     "pages": "103-123",
-    "doi": null,
+    "doi": "10.1016/j.gca.2020.05.030",
     "url": "https://doi.org/10.1016/j.gca.2020.05.030",
     "themes": [
       "meteorites",
@@ -305,10 +305,10 @@
       "Hanan BB"
     ],
     "firstAuthor": true,
-    "journal": "Frontiers in Microbiology",
+    "journal": "Frontiers in Earth Science",
     "volume": null,
     "pages": null,
-    "doi": null,
+    "doi": "10.3389/feart.2019.00315",
     "url": "https://doi.org/10.3389/feart.2019.00315",
     "themes": [
       "astrobiology"
@@ -331,10 +331,10 @@
       "Southam G"
     ],
     "firstAuthor": true,
-    "journal": "Frontiers in Microbiology",
+    "journal": "Frontiers in Earth Science",
     "volume": null,
     "pages": null,
-    "doi": null,
+    "doi": "10.3389/feart.2019.00149",
     "url": "https://doi.org/10.3389/feart.2019.00149",
     "themes": [
       "astrobiology"
@@ -382,7 +382,7 @@
     "journal": "Nature",
     "volume": "568",
     "pages": "55-60",
-    "doi": null,
+    "doi": "10.1038/s41586-019-1033-6",
     "url": "https://doi.org/10.1038/s41586-019-1033-6",
     "themes": [
       "missions",
@@ -426,7 +426,7 @@
     "journal": "Nature Communications",
     "volume": null,
     "pages": null,
-    "doi": null,
+    "doi": "10.1038/s41467-019-09213-x",
     "url": "https://doi.org/10.1038/s41467-019-09213-x",
     "themes": [
       "missions"
@@ -449,7 +449,7 @@
     "journal": "The Astronomical Journal",
     "volume": "158",
     "pages": "1-13",
-    "doi": null,
+    "doi": "10.3847/1538-3881/ab46c0",
     "url": "https://doi.org/10.3847/1538-3881/ab46c0",
     "themes": [
       "spectroscopy",
@@ -502,7 +502,7 @@
     "journal": "Nature Astronomy",
     "volume": "3",
     "pages": "332-340",
-    "doi": null,
+    "doi": "10.1038/s41550-019-0722-2",
     "url": "https://doi.org/10.1038/s41550-019-0722-2",
     "themes": [
       "missions",
@@ -560,7 +560,7 @@
     "journal": "Nature Geoscience",
     "volume": "12",
     "pages": "242-246",
-    "doi": null,
+    "doi": "10.1038/s41561-019-0326-6",
     "url": "https://doi.org/10.1038/s41561-019-0326-6",
     "themes": [
       "missions"
@@ -637,7 +637,7 @@
     "journal": "Nature Astronomy",
     "volume": "3",
     "pages": "341-351",
-    "doi": null,
+    "doi": "10.1038/s41550-019-0731-1",
     "url": "https://doi.org/10.1038/s41550-019-0731-1",
     "themes": [
       "missions",
@@ -698,7 +698,7 @@
     "journal": "Nature Astronomy",
     "volume": "3",
     "pages": "352-361",
-    "doi": null,
+    "doi": "10.1038/s41550-019-0721-3",
     "url": "https://doi.org/10.1038/s41550-019-0721-3",
     "themes": [
       "missions"
@@ -758,7 +758,7 @@
     "journal": "Nature Geoscience",
     "volume": "12",
     "pages": "247-252",
-    "doi": null,
+    "doi": "10.1038/s41561-019-0330-x",
     "url": "https://doi.org/10.1038/s41561-019-0330-x",
     "themes": [
       "missions"
@@ -783,7 +783,7 @@
     "journal": "Icarus",
     "volume": "319",
     "pages": "525-539",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2018.10.002",
     "url": "https://doi.org/10.1016/j.icarus.2018.10.002",
     "themes": [
       "spectroscopy",
@@ -805,8 +805,8 @@
     "journal": "Primitive Meteorites and Asteroids: Physical, Chemical and Spectroscopic Observations Paving the Way to Exploration",
     "volume": null,
     "pages": "273-343",
-    "doi": null,
-    "url": null,
+    "doi": "10.1016/B978-0-12-813325-5.00004-5",
+    "url": "https://doi.org/10.1016/B978-0-12-813325-5.00004-5",
     "themes": [
       "spectroscopy",
       "meteorites"
@@ -832,7 +832,7 @@
     "journal": "Icarus",
     "volume": "307",
     "pages": "40-82",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2018.02.012",
     "url": "https://doi.org/10.1016/j.icarus.2018.02.012",
     "themes": [
       "spectroscopy",
@@ -864,7 +864,7 @@
     "journal": "Icarus",
     "volume": null,
     "pages": null,
-    "doi": null,
+    "doi": "10.1016/j.icarus.2018.01.015",
     "url": "https://doi.org/10.1016/j.icarus.2018.01.015",
     "themes": [
       "spectroscopy",
@@ -894,7 +894,7 @@
     "journal": "Astrobiology",
     "volume": null,
     "pages": null,
-    "doi": null,
+    "doi": "10.1089/ast.2017.1685",
     "url": "https://doi.org/10.1089/ast.2017.1685",
     "themes": [
       "astrobiology",
@@ -921,7 +921,7 @@
     "journal": "Meteoritics and Planetary Science",
     "volume": null,
     "pages": null,
-    "doi": null,
+    "doi": "10.1111/maps.13044",
     "url": "https://doi.org/10.1111/maps.13044",
     "themes": [
       "spectroscopy",
@@ -945,7 +945,7 @@
     "journal": "American Mineralogist",
     "volume": null,
     "pages": null,
-    "doi": null,
+    "doi": "10.2138/am-2018-6288",
     "url": "https://doi.org/10.2138/am-2018-6288",
     "themes": [
       "environmental",
@@ -975,7 +975,7 @@
     "journal": "Meteoritics and Planetary Science",
     "volume": null,
     "pages": null,
-    "doi": null,
+    "doi": "10.1111/maps.13079",
     "url": "https://doi.org/10.1111/maps.13079",
     "themes": [
       "spectroscopy",
@@ -1002,7 +1002,7 @@
     "journal": "Icarus",
     "volume": "300",
     "pages": "392-410",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2017.09.005",
     "url": "https://doi.org/10.1016/j.icarus.2017.09.005",
     "themes": [
       "spectroscopy",
@@ -1027,7 +1027,7 @@
     "journal": "Minerals",
     "volume": "7",
     "pages": "218",
-    "doi": null,
+    "doi": "10.3390/min7110218",
     "url": "https://doi.org/10.3390/min7110218",
     "themes": [
       "environmental",
@@ -1053,7 +1053,7 @@
     "journal": "Astrobiology",
     "volume": "18",
     "pages": null,
-    "doi": null,
+    "doi": "10.1089/ast.2017.1708",
     "url": "https://doi.org/10.1089/ast.2017.1708",
     "themes": [
       "astrobiology"
@@ -1076,7 +1076,7 @@
     "journal": "International Journal of Astrobiology",
     "volume": null,
     "pages": "1-16",
-    "doi": null,
+    "doi": "10.1017/S1473550417000441",
     "url": "https://doi.org/10.1017/S1473550417000441",
     "themes": [
       "astrobiology"
@@ -1107,7 +1107,7 @@
     "journal": "Journal of Geophysical Research: Planets",
     "volume": "122",
     "pages": "1747-1772",
-    "doi": null,
+    "doi": "10.1002/2017JE005290",
     "url": "https://doi.org/10.1002/2017JE005290",
     "themes": [
       "Mars",
@@ -1138,7 +1138,7 @@
     "journal": "Computers and Geosciences",
     "volume": "100",
     "pages": "103-114",
-    "doi": null,
+    "doi": "10.1016/j.cageo.2016.11.018",
     "url": "https://doi.org/10.1016/j.cageo.2016.11.018",
     "themes": [
       "spectroscopy",
@@ -1169,7 +1169,7 @@
     "journal": "Icarus",
     "volume": "266",
     "pages": "235-248",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2015.10.029",
     "url": "https://doi.org/10.1016/j.icarus.2015.10.029",
     "themes": [
       "spectroscopy",
@@ -1199,7 +1199,7 @@
     "journal": "The Astrophysical Journal Letters",
     "volume": "817",
     "pages": null,
-    "doi": null,
+    "doi": "10.3847/2041-8205/817/2/L22",
     "url": "https://doi.org/10.3847/2041-8205/817/2/L22",
     "themes": [
       "spectroscopy",
@@ -1228,7 +1228,7 @@
     "journal": "Journal of Geophysical Research: Biogeosciences",
     "volume": "121",
     "pages": "1593-1604",
-    "doi": null,
+    "doi": "10.1002/2016JG003439",
     "url": "https://doi.org/10.1002/2016JG003439",
     "themes": [
       "astrobiology",
@@ -1284,7 +1284,7 @@
     "journal": "Icarus",
     "volume": "265",
     "pages": "149-160",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2015.10.005",
     "url": "https://doi.org/10.1016/j.icarus.2015.10.005",
     "themes": [
       "spectroscopy",
@@ -1332,7 +1332,7 @@
     "journal": "Nature",
     "volume": "528",
     "pages": "237-240",
-    "doi": null,
+    "doi": "10.1038/nature15754",
     "url": "https://doi.org/10.1038/nature15754",
     "themes": [
       "missions",
@@ -1357,7 +1357,7 @@
     "journal": "Icarus",
     "volume": "254",
     "pages": "324-332",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2015.04.013",
     "url": "https://doi.org/10.1016/j.icarus.2015.04.013",
     "themes": [
       "spectroscopy",
@@ -1411,7 +1411,7 @@
     "journal": "Earth and Planetary Science Letters",
     "volume": "420",
     "pages": "127-131",
-    "doi": null,
+    "doi": "10.1016/j.epsl.2015.03.034",
     "url": "https://doi.org/10.1016/j.epsl.2015.03.034",
     "themes": [
       "Mars",
@@ -1441,7 +1441,7 @@
     "journal": "Planetary and Space Science",
     "volume": "119",
     "pages": "155-172",
-    "doi": null,
+    "doi": "10.1016/j.pss.2015.09.001",
     "url": "https://doi.org/10.1016/j.pss.2015.09.001",
     "themes": [
       "spectroscopy",
@@ -1468,7 +1468,7 @@
     "journal": "Icarus",
     "volume": "258",
     "pages": "483-499",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2015.01.018",
     "url": "https://doi.org/10.1016/j.icarus.2015.01.018",
     "themes": [
       "spectroscopy",
@@ -1496,7 +1496,7 @@
     "journal": "Icarus",
     "volume": "262",
     "pages": "124-130",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2015.08.036",
     "url": "https://doi.org/10.1016/j.icarus.2015.08.036",
     "themes": [
       "spectroscopy",
@@ -1533,7 +1533,7 @@
     "journal": "Icarus",
     "volume": "252",
     "pages": "129-143",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2015.01.006",
     "url": "https://doi.org/10.1016/j.icarus.2015.01.006",
     "themes": [
       "spectroscopy",
@@ -1587,7 +1587,7 @@
     "journal": "Earth and Planetary Science Letters",
     "volume": "390",
     "pages": "157-164",
-    "doi": null,
+    "doi": "10.1016/j.epsl.2014.01.007",
     "url": "https://doi.org/10.1016/j.epsl.2014.01.007",
     "themes": [
       "spectroscopy",
@@ -1610,7 +1610,7 @@
     "journal": "Icarus",
     "volume": "237",
     "pages": "159-181",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2014.04.033",
     "url": "https://doi.org/10.1016/j.icarus.2014.04.033",
     "themes": [
       "spectroscopy",
@@ -1640,7 +1640,7 @@
     "journal": "Icarus",
     "volume": "237",
     "pages": "116-130",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2014.04.027",
     "url": "https://doi.org/10.1016/j.icarus.2014.04.027",
     "themes": [
       "spectroscopy",
@@ -1666,7 +1666,7 @@
     "journal": "International Journal of Astrobiology",
     "volume": "13",
     "pages": "353-365",
-    "doi": null,
+    "doi": "10.1017/S1473550414000366",
     "url": "https://doi.org/10.1017/S1473550414000366",
     "themes": [
       "spectroscopy",
@@ -1696,7 +1696,7 @@
     "journal": "Geobiology",
     "volume": "12",
     "pages": "542-556",
-    "doi": null,
+    "doi": "10.1111/gbi.12102",
     "url": "https://doi.org/10.1111/gbi.12102",
     "themes": [
       "astrobiology",
@@ -1721,7 +1721,7 @@
     "journal": "Meteoritics and Planetary Science",
     "volume": "49",
     "pages": "2152-2168",
-    "doi": null,
+    "doi": "10.1111/maps.12381",
     "url": "https://doi.org/10.1111/maps.12381",
     "themes": [
       "astrobiology",
@@ -1747,7 +1747,7 @@
     "journal": "Icarus",
     "volume": "226",
     "pages": "1612-1617",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2013.08.014",
     "url": "https://doi.org/10.1016/j.icarus.2013.08.014",
     "themes": [
       "spectroscopy",
@@ -1804,7 +1804,7 @@
     "journal": "Icarus",
     "volume": "223",
     "pages": "850-877",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2013.02.003",
     "url": "https://doi.org/10.1016/j.icarus.2013.02.003",
     "themes": [
       "spectroscopy",
@@ -1844,7 +1844,7 @@
     "journal": "Journal of Geophysical Research: Biogeosciences",
     "volume": "118",
     "pages": "922-939",
-    "doi": null,
+    "doi": "10.1002/jgrg.20059",
     "url": "https://doi.org/10.1002/jgrg.20059",
     "themes": [
       "astrobiology",
@@ -1877,7 +1877,7 @@
     "journal": "Icarus",
     "volume": "224",
     "pages": "347-363",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2012.08.030",
     "url": "https://doi.org/10.1016/j.icarus.2012.08.030",
     "themes": [
       "astrobiology",
@@ -1908,7 +1908,7 @@
     "journal": "Icarus",
     "volume": "224",
     "pages": "382-398",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2012.05.015",
     "url": "https://doi.org/10.1016/j.icarus.2012.05.015",
     "themes": [
       "astrobiology",
@@ -1962,7 +1962,7 @@
     "journal": "Icarus",
     "volume": "221",
     "pages": "1162-1172",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2012.04.003",
     "url": "https://doi.org/10.1016/j.icarus.2012.04.003",
     "themes": [
       "spectroscopy",
@@ -1996,7 +1996,7 @@
     "journal": "Earth and Planetary Science Letters",
     "volume": "351-352",
     "pages": "13-26",
-    "doi": null,
+    "doi": "10.1016/j.epsl.2012.07.015",
     "url": "https://doi.org/10.1016/j.epsl.2012.07.015",
     "themes": [
       "astrobiology",
@@ -2069,7 +2069,7 @@
     "journal": "Meteoritics and Planetary Science",
     "volume": "46",
     "pages": "638-651",
-    "doi": null,
+    "doi": "10.1111/j.1945-5100.2011.01180.x",
     "url": "https://doi.org/10.1111/j.1945-5100.2011.01180.x",
     "themes": [
       "meteorites",
@@ -2120,7 +2120,7 @@
     "journal": "Icarus",
     "volume": "216",
     "pages": "650-659",
-    "doi": null,
+    "doi": "10.1016/j.icarus.2011.09.032",
     "url": "https://doi.org/10.1016/j.icarus.2011.09.032",
     "themes": [
       "spectroscopy",
@@ -2164,9 +2164,9 @@
     "firstAuthor": true,
     "journal": "Canadian Mineralogist",
     "volume": "48",
-    "pages": "923-933",
-    "doi": "10.3749/canmin.48.5.000",
-    "url": "https://doi.org/10.3749/canmin.48.5.000",
+    "pages": "1255-1265",
+    "doi": "10.3749/canmin.48.5.1255",
+    "url": "https://doi.org/10.3749/canmin.48.5.1255",
     "themes": [
       "astrobiology"
     ],
@@ -2337,7 +2337,7 @@
     "journal": "Planetary and Space Science",
     "volume": "58",
     "pages": "691-700",
-    "doi": null,
+    "doi": "10.1016/j.pss.2009.08.004",
     "url": "https://doi.org/10.1016/j.pss.2009.08.004",
     "themes": [
       "methods"
@@ -2381,7 +2381,7 @@
     "journal": "Atmospheric Chemistry and Physics Discussions",
     "volume": "8",
     "pages": "4499-4559",
-    "doi": null,
+    "doi": "10.5194/acpd-8-4499-2008",
     "url": "https://doi.org/10.5194/acpd-8-4499-2008",
     "themes": [
       "environmental",
@@ -2435,7 +2435,7 @@
     "journal": "Atmospheric Chemistry and Physics",
     "volume": "8",
     "pages": "35-62",
-    "doi": null,
+    "doi": "10.5194/acp-8-35-2008",
     "url": "https://doi.org/10.5194/acp-8-35-2008",
     "themes": [
       "environmental",
@@ -2460,7 +2460,7 @@
     "journal": "Canadian Journal of Physics",
     "volume": "80",
     "pages": "557-562",
-    "doi": null,
+    "doi": "10.1139/p02-009",
     "url": "https://doi.org/10.1139/p02-009",
     "themes": [
       "spectroscopy",
@@ -2485,7 +2485,7 @@
     "journal": "Canadian Journal of Physics",
     "volume": "79",
     "pages": "1159-1167",
-    "doi": null,
+    "doi": "10.1139/cjp-79-9-1159",
     "url": "https://doi.org/10.1139/cjp-79-9-1159",
     "themes": [
       "spectroscopy",

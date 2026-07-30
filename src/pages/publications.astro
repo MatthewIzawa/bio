@@ -96,6 +96,15 @@ const confSortedYears = [...confByYear.keys()].sort((a, b) => b - a);
                 <p class="text-sm text-[var(--color-text-muted)] italic">
                   {pub.journal}{pub.volume ? `, ${pub.volume}` : ''}{pub.pages ? `, ${pub.pages}` : ''}.
                 </p>
+                {pub.doi && (
+                  <p class="text-xs text-[var(--color-text-muted)] mt-1">
+                    <a href={`https://doi.org/${pub.doi}`}
+                       class="hover:text-[var(--color-accent)] underline underline-offset-2 decoration-[var(--color-border)]"
+                       target="_blank" rel="noopener noreferrer">
+                      https://doi.org/{pub.doi}
+                    </a>
+                  </p>
+                )}
               </article>
             ))}
           </div>
