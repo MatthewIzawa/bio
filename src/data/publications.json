@@ -1,5 +1,28 @@
 [
   {
+    "key": "garybicas2026radiation",
+    "year": 2026,
+    "type": "journal",
+    "title": "Endogenic Ionizing Radiation in the Martian Subsurface: Implications to Habitability",
+    "authors": [
+      "Gary-Bicas CE",
+      "Kumari N",
+      "Izawa MRM",
+      "Karunatillake S"
+    ],
+    "firstAuthor": false,
+    "journal": "npj Space Exploration (accepted)",
+    "volume": null,
+    "pages": null,
+    "doi": null,
+    "url": null,
+    "themes": [
+      "Mars",
+      "astrobiology"
+    ],
+    "highlight": false
+  },
+  {
     "key": "cao2026shockfeldspar",
     "year": 2026,
     "type": "journal",
@@ -181,6 +204,34 @@
     "url": "https://doi.org/10.3847/PSJ/ac0bbe",
     "themes": [
       "spectroscopy"
+    ],
+    "highlight": false
+  },
+  {
+    "key": "cantillo2021psyche",
+    "year": 2021,
+    "type": "journal",
+    "title": "Constraining the Regolith Composition of Asteroid (16) Psyche via Laboratory Visible Near-infrared Spectroscopy",
+    "authors": [
+      "Cantillo DC",
+      "Reddy V",
+      "Sharkey BNL",
+      "Pearson NA",
+      "Sanchez JA",
+      "Izawa MRM",
+      "Kareta T",
+      "Campbell TS",
+      "Chabra O"
+    ],
+    "firstAuthor": false,
+    "journal": "The Planetary Science Journal",
+    "volume": "2",
+    "pages": "95",
+    "doi": "10.3847/PSJ/abf63b",
+    "url": "https://doi.org/10.3847/PSJ/abf63b",
+    "themes": [
+      "spectroscopy",
+      "missions"
     ],
     "highlight": false
   },
@@ -767,7 +818,7 @@
   },
   {
     "key": "izawa2018magnetite",
-    "year": 2018,
+    "year": 2019,
     "type": "journal",
     "title": "Spectral reflectance properties of magnetites: Implications for remote sensing",
     "authors": [
@@ -986,7 +1037,7 @@
   },
   {
     "key": "izawa2017garnets",
-    "year": 2017,
+    "year": 2018,
     "type": "journal",
     "title": "Spectral reflectance (0.35-2.5 \u00b5m) properties of garnets: Implications for remote sensing detection and characterization",
     "authors": [
@@ -1037,7 +1088,7 @@
   },
   {
     "key": "bebout2017nitrogen",
-    "year": 2017,
+    "year": 2018,
     "type": "journal",
     "title": "Nitrogen Concentrations and Isotopic Compositions of Seafloor-Altered Terrestrial Basaltic Glass: Implications for Astrobiology",
     "authors": [
@@ -1062,7 +1113,7 @@
   },
   {
     "key": "anderson2017nitrogen",
-    "year": 2017,
+    "year": 2019,
     "type": "journal",
     "title": "Chemical alteration and preservation of sedimentary/organic nitrogen isotopic signatures in a 2.7 Ga seafloor volcanic sequence",
     "authors": [
@@ -1074,8 +1125,8 @@
     ],
     "firstAuthor": false,
     "journal": "International Journal of Astrobiology",
-    "volume": null,
-    "pages": "1-16",
+    "volume": "18",
+    "pages": "235-250",
     "doi": "10.1017/S1473550417000441",
     "url": "https://doi.org/10.1017/S1473550417000441",
     "themes": [
@@ -2485,8 +2536,8 @@
     "journal": "Canadian Journal of Physics",
     "volume": "79",
     "pages": "1159-1167",
-    "doi": "10.1139/cjp-79-9-1159",
-    "url": "https://doi.org/10.1139/cjp-79-9-1159",
+    "doi": "10.1139/p01-081",
+    "url": "https://doi.org/10.1139/p01-081",
     "themes": [
       "spectroscopy",
       "methods"
