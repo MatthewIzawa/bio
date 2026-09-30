@@ -1,0 +1,20 @@
+# build output
+dist/
+
+# dependencies
+node_modules/
+
+# environment variables
+.env
+.env.production
+
+# macOS
+.DS_Store
+
+# generated publication lists
+exports/*.md
+exports/*.docx
+!exports/README.md
+
+# internal notes never belong in this public repository
+docs/

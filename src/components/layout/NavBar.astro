@@ -1,0 +1,101 @@
+---
+// src/components/layout/NavBar.astro
+const base = import.meta.env.BASE_URL;
+const currentPath = Astro.url.pathname;
+
+// Trailing-slash normalize: remove trailing slash for comparison
+const normalizedPath = currentPath.replace(/\/$/, '') || base.replace(/\/$/, '');
+
+const navItems = [
+  { label: 'About',        href: base },
+  { label: 'Research',     href: `${base}research` },
+  { label: 'Publications', href: `${base}publications` },
+  { label: 'CV',           href: `${base}cv` },
+  { label: 'Contact',      href: `${base}contact` },
+];
+
+function isActive(href: string): boolean {
+  const normalizedHref = href.replace(/\/$/, '');
+  return normalizedPath === normalizedHref;
+}
+---
+
+<header class="border-b border-[var(--color-border)] bg-[var(--color-background)] sticky top-0 z-10">
+  <div class="max-w-[900px] mx-auto px-4 sm:px-6 flex items-center justify-between h-14">
+    <a
+      href={base}
+      class="font-semibold text-[var(--color-text)] hover:text-[var(--color-accent)] text-sm tracking-tight"
+    >
+      Matthew R.M. Izawa
+    </a>
+
+    <!-- Desktop navigation -->
+    <nav class="hidden md:flex items-center gap-6" aria-label="Main navigation">
+      {navItems.map(item => (
+        <a
+          href={item.href}
+          class:list={[
+            "text-sm",
+            isActive(item.href)
+              ? "text-[var(--color-accent)] font-medium"
+              : "text-[var(--color-text-muted)] hover:text-[var(--color-text)]"
+          ]}
+          aria-current={isActive(item.href) ? "page" : undefined}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+
+    <!-- Mobile hamburger toggle -->
+    <button
+      id="menu-toggle"
+      class="md:hidden p-2 text-[var(--color-text-muted)]"
+      aria-label="Toggle navigation menu"
+      aria-expanded="false"
+      aria-controls="mobile-menu"
+    >
+      <svg xmlns="http://www.w3.org/2000/svg" width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true">
+        <line x1="3" y1="6" x2="21" y2="6" />
+        <line x1="3" y1="12" x2="21" y2="12" />
+        <line x1="3" y1="18" x2="21" y2="18" />
+      </svg>
+    </button>
+  </div>
+
+  <!-- Mobile menu (hidden by default) -->
+  <div
+    id="mobile-menu"
+    class="md:hidden hidden border-t border-[var(--color-border)]"
+  >
+    <nav class="max-w-[900px] mx-auto px-4 sm:px-6 py-3 flex flex-col gap-1" aria-label="Mobile navigation">
+      {navItems.map(item => (
+        <a
+          href={item.href}
+          class:list={[
+            "py-2 text-sm",
+            isActive(item.href)
+              ? "text-[var(--color-accent)] font-medium"
+              : "text-[var(--color-text-muted)]"
+          ]}
+          aria-current={isActive(item.href) ? "page" : undefined}
+        >
+          {item.label}
+        </a>
+      ))}
+    </nav>
+  </div>
+</header>
+
+<script>
+  // Minimal vanilla JS for mobile hamburger — no framework island
+  const toggle = document.getElementById('menu-toggle');
+  const menu = document.getElementById('mobile-menu');
+  if (toggle && menu) {
+    toggle.addEventListener('click', () => {
+      const isOpen = !menu.classList.contains('hidden');
+      menu.classList.toggle('hidden', isOpen);
+      toggle.setAttribute('aria-expanded', String(!isOpen));
+    });
+  }
+</script>

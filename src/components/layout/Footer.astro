@@ -1,0 +1,36 @@
+---
+// src/components/layout/Footer.astro
+const currentYear = new Date().getFullYear();
+---
+
+<footer class="border-t border-[var(--color-border)] mt-auto">
+  <div class="max-w-[900px] mx-auto px-4 sm:px-6 py-6 flex flex-col sm:flex-row items-center justify-between gap-4 text-sm text-[var(--color-text-muted)]">
+    <div class="flex items-center gap-4">
+      <a
+        href="mailto:matthew.izawa@gmail.com"
+        class="hover:text-[var(--color-text)]"
+      >
+        matthew.izawa@gmail.com
+      </a>
+      <a
+        href="https://orcid.org/0000-0001-5456-2912"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-[var(--color-text)]"
+        aria-label="ORCID profile"
+      >
+        ORCID
+      </a>
+      <a
+        href="https://scholar.google.com/citations?user=pUb8l4sAAAAJ&hl=en&oi=ao"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="hover:text-[var(--color-text)]"
+        aria-label="Google Scholar profile"
+      >
+        Google Scholar
+      </a>
+    </div>
+    <p>&copy; {currentYear} Matthew R.M. Izawa</p>
+  </div>
+</footer>
